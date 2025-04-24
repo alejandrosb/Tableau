@@ -1,0 +1,1791 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0208.0338                               -->
+<workbook original-version='18.1' source-build='2024.3.4 (20243.25.0208.0338)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
+    <DashboardExportButton />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='eventossociales (socialmedia)' inline='true' name='federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='socialmedia' name='excel-direct.1xufl0610tclao19pi0qv1eutex6'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/b_medios_sociales/socialmedia.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1xufl0610tclao19pi0qv1eutex6' name='eventossociales' table='[eventossociales$]' type='table'>
+          <columns gridOrigin='A1:D10:no:A1:D10:0' header='yes' outcome='6'>
+            <column datatype='date' name='Fecha' ordinal='0' />
+            <column datatype='string' name='Red_social' ordinal='1' />
+            <column datatype='string' name='Tipo_interaccion' ordinal='2' />
+            <column datatype='integer' name='Cantidad' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[eventossociales]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D10:no:A1:D10:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Fecha]</local-name>
+            <parent-name>[eventossociales]</parent-name>
+            <remote-alias>Fecha</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[eventossociales_64BABD0209A64AD29274C10D9F7948BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Red_social</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Red_social]</local-name>
+            <parent-name>[eventossociales]</parent-name>
+            <remote-alias>Red_social</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[eventossociales_64BABD0209A64AD29274C10D9F7948BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tipo_interaccion</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tipo_interaccion]</local-name>
+            <parent-name>[eventossociales]</parent-name>
+            <remote-alias>Tipo_interaccion</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[eventossociales_64BABD0209A64AD29274C10D9F7948BC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cantidad</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cantidad]</local-name>
+            <parent-name>[eventossociales]</parent-name>
+            <remote-alias>Cantidad</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[eventossociales_64BABD0209A64AD29274C10D9F7948BC]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Red social' datatype='string' name='[Red_social]' role='dimension' type='nominal' />
+      <column caption='Tipo interaccion' datatype='string' name='[Tipo_interaccion]' role='dimension' type='nominal' />
+      <column caption='eventossociales' datatype='table' name='[__tableau_internal_object_id__].[eventossociales_64BABD0209A64AD29274C10D9F7948BC]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/pr/33tz587x6pb1svrc2y08mr9h0000gn/T/tableau-temp/#TableauTemp_0xlg2340e9q8hg1geq1ar1xp7otu.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/16/2025 07:01:06 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Fecha</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Fecha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha</remote-alias>
+              <ordinal>0</ordinal>
+              <family>eventossociales</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[eventossociales_64BABD0209A64AD29274C10D9F7948BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Red_social</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Red_social]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Red_social</remote-alias>
+              <ordinal>1</ordinal>
+              <family>eventossociales</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[eventossociales_64BABD0209A64AD29274C10D9F7948BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tipo_interaccion</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Tipo_interaccion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tipo_interaccion</remote-alias>
+              <ordinal>2</ordinal>
+              <family>eventossociales</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[eventossociales_64BABD0209A64AD29274C10D9F7948BC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cantidad</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Cantidad]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cantidad</remote-alias>
+              <ordinal>3</ordinal>
+              <family>eventossociales</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[eventossociales_64BABD0209A64AD29274C10D9F7948BC]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='eventossociales' id='eventossociales_64BABD0209A64AD29274C10D9F7948BC'>
+            <properties context=''>
+              <relation connection='excel-direct.1xufl0610tclao19pi0qv1eutex6' name='eventossociales' table='[eventossociales$]' type='table'>
+                <columns gridOrigin='A1:D10:no:A1:D10:0' header='yes' outcome='6'>
+                  <column datatype='date' name='Fecha' ordinal='0' />
+                  <column datatype='string' name='Red_social' ordinal='1' />
+                  <column datatype='string' name='Tipo_interaccion' ordinal='2' />
+                  <column datatype='integer' name='Cantidad' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='facebookcompartir (socialmedia)' inline='true' name='federated.1fqrtph14h1e3y162rmyo1uo6gby' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='socialmedia' name='excel-direct.1sfp0iq0fps02w0ztu3hr1jii1hr'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/b_medios_sociales/socialmedia.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1sfp0iq0fps02w0ztu3hr1jii1hr' name='facebookcompartir' table='[facebookcompartir$]' type='table'>
+          <columns gridOrigin='A1:D31:no:A1:D31:0' header='yes' outcome='6'>
+            <column datatype='string' name='Fecha' ordinal='0' />
+            <column datatype='integer' name='Cantidad de Compartir' ordinal='1' />
+            <column datatype='integer' name='Total de Interacciones en Facebook' ordinal='2' />
+            <column datatype='real' name='Porcentaje de Compartir' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[facebookcompartir]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D31:no:A1:D31:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Fecha]</local-name>
+            <parent-name>[facebookcompartir]</parent-name>
+            <remote-alias>Fecha</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[facebookcompartir_6BF1810227B24F64A1CC77CC53DA20A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cantidad de Compartir</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cantidad de Compartir]</local-name>
+            <parent-name>[facebookcompartir]</parent-name>
+            <remote-alias>Cantidad de Compartir</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[facebookcompartir_6BF1810227B24F64A1CC77CC53DA20A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total de Interacciones en Facebook</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total de Interacciones en Facebook]</local-name>
+            <parent-name>[facebookcompartir]</parent-name>
+            <remote-alias>Total de Interacciones en Facebook</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[facebookcompartir_6BF1810227B24F64A1CC77CC53DA20A0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Porcentaje de Compartir</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Porcentaje de Compartir]</local-name>
+            <parent-name>[facebookcompartir]</parent-name>
+            <remote-alias>Porcentaje de Compartir</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[facebookcompartir_6BF1810227B24F64A1CC77CC53DA20A0]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='facebookcompartir' datatype='table' name='[__tableau_internal_object_id__].[facebookcompartir_6BF1810227B24F64A1CC77CC53DA20A0]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/pr/33tz587x6pb1svrc2y08mr9h0000gn/T/tableau-temp/#TableauTemp_1ha8ld40g965np17wp3a106ezjdv.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/16/2025 07:06:17 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Fecha</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Fecha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha</remote-alias>
+              <ordinal>0</ordinal>
+              <family>facebookcompartir</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[facebookcompartir_6BF1810227B24F64A1CC77CC53DA20A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cantidad de Compartir</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Cantidad de Compartir]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cantidad de Compartir</remote-alias>
+              <ordinal>1</ordinal>
+              <family>facebookcompartir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[facebookcompartir_6BF1810227B24F64A1CC77CC53DA20A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total de Interacciones en Facebook</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total de Interacciones en Facebook]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total de Interacciones en Facebook</remote-alias>
+              <ordinal>2</ordinal>
+              <family>facebookcompartir</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[facebookcompartir_6BF1810227B24F64A1CC77CC53DA20A0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Porcentaje de Compartir</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Porcentaje de Compartir]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Porcentaje de Compartir</remote-alias>
+              <ordinal>3</ordinal>
+              <family>facebookcompartir</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[facebookcompartir_6BF1810227B24F64A1CC77CC53DA20A0]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='facebookcompartir' id='facebookcompartir_6BF1810227B24F64A1CC77CC53DA20A0'>
+            <properties context=''>
+              <relation connection='excel-direct.1sfp0iq0fps02w0ztu3hr1jii1hr' name='facebookcompartir' table='[facebookcompartir$]' type='table'>
+                <columns gridOrigin='A1:D31:no:A1:D31:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Fecha' ordinal='0' />
+                  <column datatype='integer' name='Cantidad de Compartir' ordinal='1' />
+                  <column datatype='integer' name='Total de Interacciones en Facebook' ordinal='2' />
+                  <column datatype='real' name='Porcentaje de Compartir' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='twitterretweets (socialmedia)' inline='true' name='federated.17b9cjs1lo2cni11vqxya1umasil' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='socialmedia' name='excel-direct.02l5tqe1rri5yn1djeqdr1gkox70'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/b_medios_sociales/socialmedia.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.02l5tqe1rri5yn1djeqdr1gkox70' name='twitterretweets' table='[twitterretweets$]' type='table'>
+          <columns gridOrigin='A1:D31:no:A1:D31:0' header='yes' outcome='6'>
+            <column datatype='string' name='Fecha' ordinal='0' />
+            <column datatype='integer' name='Cantidad de Retweets' ordinal='1' />
+            <column datatype='integer' name='Total de Interacciones en Twitter' ordinal='2' />
+            <column datatype='real' name='Porcentaje de Retweets' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[twitterretweets]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D31:no:A1:D31:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Fecha]</local-name>
+            <parent-name>[twitterretweets]</parent-name>
+            <remote-alias>Fecha</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[twitterretweets_0A3051E8FF564D95B806F2E793944C7D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cantidad de Retweets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cantidad de Retweets]</local-name>
+            <parent-name>[twitterretweets]</parent-name>
+            <remote-alias>Cantidad de Retweets</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[twitterretweets_0A3051E8FF564D95B806F2E793944C7D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total de Interacciones en Twitter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total de Interacciones en Twitter]</local-name>
+            <parent-name>[twitterretweets]</parent-name>
+            <remote-alias>Total de Interacciones en Twitter</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[twitterretweets_0A3051E8FF564D95B806F2E793944C7D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Porcentaje de Retweets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Porcentaje de Retweets]</local-name>
+            <parent-name>[twitterretweets]</parent-name>
+            <remote-alias>Porcentaje de Retweets</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[twitterretweets_0A3051E8FF564D95B806F2E793944C7D]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='twitterretweets' datatype='table' name='[__tableau_internal_object_id__].[twitterretweets_0A3051E8FF564D95B806F2E793944C7D]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/pr/33tz587x6pb1svrc2y08mr9h0000gn/T/tableau-temp/#TableauTemp_0vro6eu1vv6sz912re7r40ry1zvz.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/16/2025 07:10:33 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Fecha</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Fecha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha</remote-alias>
+              <ordinal>0</ordinal>
+              <family>twitterretweets</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[twitterretweets_0A3051E8FF564D95B806F2E793944C7D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cantidad de Retweets</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Cantidad de Retweets]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cantidad de Retweets</remote-alias>
+              <ordinal>1</ordinal>
+              <family>twitterretweets</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[twitterretweets_0A3051E8FF564D95B806F2E793944C7D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total de Interacciones en Twitter</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total de Interacciones en Twitter]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total de Interacciones en Twitter</remote-alias>
+              <ordinal>2</ordinal>
+              <family>twitterretweets</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[twitterretweets_0A3051E8FF564D95B806F2E793944C7D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Porcentaje de Retweets</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Porcentaje de Retweets]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Porcentaje de Retweets</remote-alias>
+              <ordinal>3</ordinal>
+              <family>twitterretweets</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[twitterretweets_0A3051E8FF564D95B806F2E793944C7D]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='twitterretweets' id='twitterretweets_0A3051E8FF564D95B806F2E793944C7D'>
+            <properties context=''>
+              <relation connection='excel-direct.02l5tqe1rri5yn1djeqdr1gkox70' name='twitterretweets' table='[twitterretweets$]' type='table'>
+                <columns gridOrigin='A1:D31:no:A1:D31:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Fecha' ordinal='0' />
+                  <column datatype='integer' name='Cantidad de Retweets' ordinal='1' />
+                  <column datatype='integer' name='Total de Interacciones en Twitter' ordinal='2' />
+                  <column datatype='real' name='Porcentaje de Retweets' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='interaccionessociales (socialmedia)' inline='true' name='federated.17jc2fv0xayxbt19gtj5m1ju9iyo' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='socialmedia' name='excel-direct.1d4oboa1nmnd081dhvtfd1tnyhlk'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/b_medios_sociales/socialmedia.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1d4oboa1nmnd081dhvtfd1tnyhlk' name='interaccionessociales' table='[interaccionessociales$]' type='table'>
+          <columns gridOrigin='A1:F97:no:A1:F97:0' header='yes' outcome='2'>
+            <column datatype='string' name='ID_evento' ordinal='0' />
+            <column datatype='date' name='Mes' ordinal='1' />
+            <column datatype='integer' name='Anio' ordinal='2' />
+            <column datatype='string' name='Red_social' ordinal='3' />
+            <column datatype='string' name='Tipo_interaccion' ordinal='4' />
+            <column datatype='integer' name='Cantidad' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[interaccionessociales]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F97:no:A1:F97:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID_evento</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ID_evento]</local-name>
+            <parent-name>[interaccionessociales]</parent-name>
+            <remote-alias>ID_evento</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mes</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Mes]</local-name>
+            <parent-name>[interaccionessociales]</parent-name>
+            <remote-alias>Mes</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anio</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Anio]</local-name>
+            <parent-name>[interaccionessociales]</parent-name>
+            <remote-alias>Anio</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Red_social</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Red_social]</local-name>
+            <parent-name>[interaccionessociales]</parent-name>
+            <remote-alias>Red_social</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tipo_interaccion</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tipo_interaccion]</local-name>
+            <parent-name>[interaccionessociales]</parent-name>
+            <remote-alias>Tipo_interaccion</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cantidad</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cantidad]</local-name>
+            <parent-name>[interaccionessociales]</parent-name>
+            <remote-alias>Cantidad</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='ID evento' datatype='string' name='[ID_evento]' role='dimension' type='nominal' />
+      <column caption='Red social' datatype='string' name='[Red_social]' role='dimension' type='nominal' />
+      <column caption='Tipo interaccion' datatype='string' name='[Tipo_interaccion]' role='dimension' type='nominal' />
+      <column caption='interaccionessociales' datatype='table' name='[__tableau_internal_object_id__].[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/pr/33tz587x6pb1svrc2y08mr9h0000gn/T/tableau-temp/#TableauTemp_09tyad803417a218xkbls001823o.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/16/2025 07:13:34 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ID_evento</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ID_evento]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ID_evento</remote-alias>
+              <ordinal>0</ordinal>
+              <family>interaccionessociales</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>96</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mes</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Mes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mes</remote-alias>
+              <ordinal>1</ordinal>
+              <family>interaccionessociales</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Anio</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Anio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Anio</remote-alias>
+              <ordinal>2</ordinal>
+              <family>interaccionessociales</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Red_social</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Red_social]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Red_social</remote-alias>
+              <ordinal>3</ordinal>
+              <family>interaccionessociales</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tipo_interaccion</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Tipo_interaccion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tipo_interaccion</remote-alias>
+              <ordinal>4</ordinal>
+              <family>interaccionessociales</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cantidad</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Cantidad]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cantidad</remote-alias>
+              <ordinal>5</ordinal>
+              <family>interaccionessociales</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[interaccionessociales_2D5F5FA57803486FAD5756C3351442C6]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='interaccionessociales' id='interaccionessociales_2D5F5FA57803486FAD5756C3351442C6'>
+            <properties context=''>
+              <relation connection='excel-direct.1d4oboa1nmnd081dhvtfd1tnyhlk' name='interaccionessociales' table='[interaccionessociales$]' type='table'>
+                <columns gridOrigin='A1:F97:no:A1:F97:0' header='yes' outcome='2'>
+                  <column datatype='string' name='ID_evento' ordinal='0' />
+                  <column datatype='date' name='Mes' ordinal='1' />
+                  <column datatype='integer' name='Anio' ordinal='2' />
+                  <column datatype='string' name='Red_social' ordinal='3' />
+                  <column datatype='string' name='Tipo_interaccion' ordinal='4' />
+                  <column datatype='integer' name='Cantidad' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='eventosociales'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Eventos Sociales</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='eventossociales (socialmedia)' name='federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl'>
+            <column datatype='integer' name='[Cantidad]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Fecha]' role='dimension' type='ordinal' />
+            <column caption='Red social' datatype='string' name='[Red_social]' role='dimension' type='nominal' />
+            <column-instance column='[Fecha]' derivation='Month' name='[mn:Fecha:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Red_social]' derivation='None' name='[none:Red_social:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Cantidad]' derivation='Sum' name='[sum:Cantidad:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl].[mn:Fecha:ok]' value='iL' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl].[none:Red_social:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl].[sum:Cantidad:qk]</rows>
+        <cols>([federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl].[none:Red_social:nk] / [federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl].[mn:Fecha:ok])</cols>
+      </table>
+      <simple-id uuid='{DFF1D200-F2A9-4AD3-A7E9-77AF687CC57B}' />
+    </worksheet>
+    <worksheet name='facebookcompartir'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Facebook Compartir</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='facebookcompartir (socialmedia)' name='federated.1fqrtph14h1e3y162rmyo1uo6gby' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fqrtph14h1e3y162rmyo1uo6gby'>
+            <column datatype='real' name='[Porcentaje de Compartir]' role='measure' type='quantitative' />
+            <column-instance column='[Porcentaje de Compartir]' derivation='Avg' name='[avg:Porcentaje de Compartir:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1fqrtph14h1e3y162rmyo1uo6gby].[avg:Porcentaje de Compartir:qk]' value='*0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1fqrtph14h1e3y162rmyo1uo6gby].[avg:Porcentaje de Compartir:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='24'><![CDATA[<[federated.1fqrtph14h1e3y162rmyo1uo6gby].[avg:Porcentaje de Compartir:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontsize='10'>vs. 30 días previos</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{360F3230-51D3-46B7-8C08-682EBAFEF26E}' />
+    </worksheet>
+    <worksheet name='interaccionesociales'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Interacciones Sociales</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='interaccionessociales (socialmedia)' name='federated.17jc2fv0xayxbt19gtj5m1ju9iyo' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17jc2fv0xayxbt19gtj5m1ju9iyo'>
+            <column datatype='integer' name='[Cantidad]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Mes]' role='dimension' type='ordinal' />
+            <column caption='Red social' datatype='string' name='[Red_social]' role='dimension' type='nominal' />
+            <column-instance column='[Mes]' derivation='Month' name='[mn:Mes:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Red_social]' derivation='None' name='[none:Red_social:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Cantidad]' derivation='Sum' name='[sum:Cantidad:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.17jc2fv0xayxbt19gtj5m1ju9iyo].[mn:Mes:ok]' value='iL' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.17jc2fv0xayxbt19gtj5m1ju9iyo].[none:Red_social:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.17jc2fv0xayxbt19gtj5m1ju9iyo].[sum:Cantidad:qk]</rows>
+        <cols>([federated.17jc2fv0xayxbt19gtj5m1ju9iyo].[mn:Mes:ok] / [federated.17jc2fv0xayxbt19gtj5m1ju9iyo].[none:Red_social:nk])</cols>
+      </table>
+      <simple-id uuid='{D7F39B4B-4A28-4609-8389-74AF7F3390FF}' />
+    </worksheet>
+    <worksheet name='twitterretwets'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Twitter Retwets</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='twitterretweets (socialmedia)' name='federated.17b9cjs1lo2cni11vqxya1umasil' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17b9cjs1lo2cni11vqxya1umasil'>
+            <column datatype='integer' name='[Total de Interacciones en Twitter]' role='measure' type='quantitative' />
+            <column-instance column='[Total de Interacciones en Twitter]' derivation='Sum' name='[sum:Total de Interacciones en Twitter:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.17b9cjs1lo2cni11vqxya1umasil].[sum:Total de Interacciones en Twitter:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='24'><![CDATA[<[federated.17b9cjs1lo2cni11vqxya1umasil].[sum:Total de Interacciones en Twitter:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontsize='10'>vs. 30 días previos</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{AFCDCA8E-7762-456F-871C-617A7105FFA0}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='94635' id='14' param='horz' type-v2='layout-flow' w='99064' x='468' y='894'>
+            <zone h='94635' id='8' param='horz' type-v2='layout-flow' w='99064' x='468' y='894'>
+              <zone h='94635' id='6' type-v2='layout-basic' w='99064' x='468' y='894'>
+                <zone h='4897' id='3' type-v2='text' w='99064' x='468' y='894'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='24'>Medios Sociales</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='86347' id='5' name='eventosociales' w='49532' x='468' y='9182'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='3391' id='9' type-v2='empty' w='99064' x='468' y='5791'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='22933' id='10' name='facebookcompartir' w='24765' x='50000' y='9182'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='63414' id='12' name='interaccionesociales' w='49532' x='50000' y='32115'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='22933' id='16' name='twitterretwets' w='24767' x='74765' y='9182'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='3577' id='17' type-v2='dashboard-object' w='99064' x='468' y='95529'>
+            <button action='' button-click-action-metadata='pdf' button-type='text'>
+              <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;pdf&quot; dashboarddoc-id=&quot;{BAF4D31B-9CB9-4E0C-9C49-3D5F1763E31A}&quot;</export-button-action>
+              <button-visual-state>
+                <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+              </button-visual-state>
+            </button>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98212' id='18' param='vert' type-v2='layout-flow' w='99064' x='468' y='894'>
+                <zone h='4897' id='3' type-v2='text' w='99064' x='468' y='894'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='24'>Medios Sociales</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='86347' id='5' is-fixed='true' name='eventosociales' w='49532' x='468' y='9182'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='176' h='22933' id='10' is-fixed='true' name='facebookcompartir' w='24765' x='50000' y='9182'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='176' h='22933' id='16' is-fixed='true' name='twitterretwets' w='24767' x='74765' y='9182'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='63414' id='12' is-fixed='true' name='interaccionesociales' w='49532' x='50000' y='32115'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3577' id='17' type-v2='dashboard-object' w='99064' x='468' y='95529'>
+                  <button action='' button-click-action-metadata='pdf' button-type='text'>
+                    <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;pdf&quot; dashboarddoc-id=&quot;{BAF4D31B-9CB9-4E0C-9C49-3D5F1763E31A}&quot;</export-button-action>
+                    <button-visual-state>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{BAF4D31B-9CB9-4E0C-9C49-3D5F1763E31A}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='93'>
+    <window class='worksheet' name='eventosociales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl].[none:Red_social:nk]' type='color' />
+            <card param='[federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl].[mn:Fecha:ok]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl].[none:Red_social:nk]</field>
+            <field>[federated.1jr2rz90jf9cqh1bwnbgs1wlbhkl].[yr:Fecha:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{657E0541-2B3E-4A66-8B93-4E241E493EB0}' />
+    </window>
+    <window class='worksheet' name='facebookcompartir'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9BCFBBCB-1B51-4D08-8EA5-58BC1A09EC9B}' />
+    </window>
+    <window class='worksheet' name='twitterretwets'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{75DA7B4F-6956-451B-9673-2BD47546C0B9}' />
+    </window>
+    <window class='worksheet' name='interaccionesociales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.17jc2fv0xayxbt19gtj5m1ju9iyo].[none:Red_social:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.17jc2fv0xayxbt19gtj5m1ju9iyo].[none:Red_social:nk]</field>
+            <field>[federated.17jc2fv0xayxbt19gtj5m1ju9iyo].[none:Tipo_interaccion:nk]</field>
+            <field>[federated.17jc2fv0xayxbt19gtj5m1ju9iyo].[yr:Mes:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EE4A9EF5-87CF-4157-BA39-328513BF411B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='eventosociales'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='facebookcompartir'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='interaccionesociales'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='twitterretwets'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='17' />
+      <simple-id uuid='{5B27757D-AC88-4B77-B09F-79F305659C02}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      zDbb//8AZaarJfZ3HZcAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='eventosociales' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAALzElEQVR4nO3d208bVwLH8d94fIGxwZfYdIyhQGHVgNSgJq2qzQNp1X3pQ6RqtdJq/8tK
+      u/uw2u1TK5GkS7OgkCUBgmMw4MuMA7YH157LPkRYyQJtPJkB7PP7SBEpl+Ecl6/HdjhnJMdx
+      HBAJSJIkKXDVgyC6Sr4G0Gq1/Dz8leP8+p+vAZycnPh5+CvH+fW/vnoItLGxge3tbdi2fe7H
+      C4XCue9vtVoolUp+Ds0zjuNgY2MDKysr6HQ63fcfHx/j6OgIlmWhVqtd4QjfT6FQgGEYKJfL
+      Zz6m6/qZz/Vb0Pfv4KHj42OMj48jn89jb28PmUwGgUAAmqZ1P2dnZwfpdBr1eh2JRALNZhOx
+      WAxHR0cwTRO5XO4KZ/DbJEnCxMQENE3D1tYWdF1HJpOBaZpot9sYGhrC7u4uxsfHUSqVkEql
+      8Msvv+CLL7646qG/k1gshh9++AGff/45Hj58iEgkgkQigXa7jUKhgJmZGSiKgkajgWKxiN3d
+      XUQiEdTrdXz55ZeQJMnT8fTVGSASiSCVSuHw8BDtdrv7A318fIxoNIpYLIZ0Oo1WqwVVVVGr
+      1TA1NQXDMHBwcIChoaGrnkJPLMtCNBpFoVDozn1ychLZbBaGYSAajcKyLNy+ffuqh/rOUqkU
+      xsfHYds2VFWFZVloNpswDAPZbBaJRAL1eh2tVgvJZBIjIyN49eoVotGoL+OR/HwZtFarIZlM
+      enY8wzCgKAqq1Sosy8Lo6ChevXqFSCQC0zQhyzJs20YsFoOu6xgbG8PBwQFUVYVt2zBNE7FY
+      zLPxeD2/U5ZlwTRNOI4Dx3HQbrcRiUQQCoVQr9fRbrcRjUahaRpSqRSi0ajn94yAf/MzDAPD
+      w8PY399HIpHA8fExIpFI9//j0dEREokETk5OEA6HIcsy6vW652dvSZKkbgDtdhvtdtvTb9Bo
+      NDz9gbtuOL/+NjIyInWfA8iyjHA47Ok3CAaDnh/zOuH8+t9bAciy7OnB/YjqOuH8+l9fPQkm
+      8hoDIKExABIaAyChMQASGgMgofUcwOm/TgLo/lLa6ds3P0bUD3r+Zbjnz59DURSYpgld15FO
+      p1GtVqGqKkqlEhRFwc2bN/0YK5Hneg4gl8tB0zQYhoH5+Xl8//33+Oabb/DgwQPMzc1B0zTY
+      tt398+av9A4ay7I4vx45zSaaf/t7z18nyUFE//RHT8cC9BiA4zjY39+HpmmIxWJ4+vQppqen
+      sbq6irGxMRQKBYRCIQQCge6fUCjk+aCvC1mWOb8eme026m4CCIeR+MufPR0L4OIMMDs7i9nZ
+      WUiSBNM0EQqF0G63EQ6H0el0EAz21RIDElxPP62SJL31+0KnvycSiUTe+m+ifsGXQUloDICE
+      xgBIaAyAhMYASGgMgITGAEhoDICExgBIaAyAhMYASGgMgITGAEhoDICExgBIaAyAhOY6gFar
+      1V3/e7pff61WE+LCajQ4XK9f3NjYgKIoePHiRfeqLcDrhdSLi4ueDZDIT64DSKVSKBQKaDab
+      WFxcxE8//YSZmRnous5dIQaEH/OzTMv11/pxW7sOYHh4GIqiYGFhAaurq7h58yYKhQJGR0e5
+      K8SA8GN+UtD9NSj8uK1dB5DJZJDJZAC8PhsAwI0bN7wZFdEl4atAJDQGQEJjACQ0BkBCYwAk
+      NAZAQmMAJDQGQEJjACQ0BkBCYwAkNAZAQmMAJDQGQEJjACQ0BkBCYwAkNNcrwg4PD1GtVjEx
+      MYFCoYCPPvoIe3t7iMfjyGazXo6RyDeuA6hUKqjVamg0Grh16xbW1tYwMTGBarUKVVW7i+JN
+      0/RyvNcK59c7y3K/KN6P29p1AJZl4eOPP8ba2hparVb3ivGO4wBAd1H8mxfWHjScX++cgPtH
+      3X7c1q4DmJqaQqlUwtLSEl68eIFPPvkExWIRk5OTkCSp+3lv/n0QcX6Xdzw/bmvXASSTSSST
+      SQDA/Pw8AGBmZsabURFdEr4KREJjACQ0BkBCYwAkNAZAQmMAJDQGQEJjACQ0BkBCYwAkNAZA
+      QmMAJDQGQEJjACQ0BkBCYwAkNE8CsG27+/Z0SSRRP3C9Iuzg4ADb29u4ceMGDMPA2NgYyuUy
+      FEXprhAjuu5cB5DNZnF4eAjbtrG4uIgHDx5gbm4OmqZ1d4SwbduXy9tfF5ZlcX69HtN0vyuE
+      H7e16wCOjo4Qj8cRDofx888/Q1VV5PN5DA0NdXeECAQCvlze/rqQZZnz65EUdL+zgx+3tesA
+      4vE44vE4gNdnA1mWMTMzg8B7bHtBdNlcB/Cm0/1aBnmPHBpMvLsmoTEAEhoDIKExABIaAyCh
+      MQASGgMgoTEAEhoDIKExABIaAyChMQASGgMgoTEAEhoDIKExABKa6wBM00SxWES73cbBwQEs
+      y0KlUoFhGF6Oj8hXrgPY2NjAyckJ8vk8Op0O1tfXUa1Wsbm56eX4iHzlekmkYRhQFAWbm5v4
+      +uuvsbe3h+npaei6zl0hBgR3hfgVH374IQ4PD3Hr1i2srq5ifn4eL1++RDwe564QA4K7QvwK
+      VVWhqioAIJfLAQCSyaQ3oyK6JHwViITGAEhoDICExgBIaAyAhHbuq0CmaeK7776DZVkIh8P4
+      9ttvIUnSZY+NyHfnngGCwSCWlpYQDocBgBe9oIF14UMgRVHQbDahKArv/WlgXRiApmmIRCKo
+      VCo8A9DAOvc5gGVZ2N7eRjweRygU4hmABta5Z4BAIIDJyUlEo1E0Gg2eAWhgXfgQKJ1O4/j4
+      GB988AHPADSwzg3AcRzouo5UKsWrvtBAOzcASZLw7NkzPH/+HDs7O3wIRAPrwodAn376KSKR
+      CLLZLB8C0cC68Axg2zZarRZ/+GmgXXgGSCQSGBkZQavV+s2D2LbdfcuHS9RPLlwRVq1Wuzs9
+      OI5z5kywubmJTqeDkZERlMtlZDIZVCoVDA8PY2FhwfeBE3nh3ABs24ZlWbh//z6ePn167sOg
+      UCgEXdfRaDRw584dLC8vY25uDpqmnVkUv3N4hH+t7PQ8ODUZxf27v+t9VpeEi+JdHLMfFsXb
+      to3Hjx8jkUggn89jcXHxTATBYBChUAiBQAArKyvIZrPI5/MYGho6syi+enSCfzza7nlw81Np
+      /PHe9T2bcFF87/piUXwwGMS9e/fw5MkTfPXVVwgEzj5VmJiYQDabhSzLsCwLsixjenr63M8l
+      uq4ufA6QTqextLT0q198+o9k//+WqF/w7pqExgBIaAyAhMYASGgMgITGAEhoDICExgBIaAyA
+      hMYASGgMgITGAEhoDICExgBIaAyAhMYASGjvFYCu67AsC/v7+zBNE5VKBc1m06uxEfnOdQCN
+      RgM//vgj8vk8LMvC+vo6NE3D1taWl+Mj8pXrC2Wvra1BlmWUy2XcuXMHu7u7yGQy0HX9zK4Q
+      luVuJwDHca71rgvcFcLFMfthV4h3cffuXRSLRYyOjmJtbQ3z8/MoFAqIx+NndoVwu1ZYkqRr
+      vesCd4XoXV/sCvGucrkcAOCzzz4DACSTyfcfEdEl4qtAJDQGQEJjACQ0BkBCYwAkNAZAQmMA
+      JDQGQEJjACQ0BkBCYwAkNAZAQmMAJDQGQEJjACQ0BkBCcx2A4ziwbRsA3nrrOI43IyO6BK5X
+      hJVKJRSLRUSjUTSbTWQyGZTLZSiKgoWF63txa6I3uQ5gdHQUjx8/Rjqdxu3bt7G8vIy5uTlo
+      mubroviH/93Hf7ZKPR/r1uwYfr+Qe+t9f13exH610fOx/nBnBrPjCS6Kd3PMQVkUr+s6VFWF
+      ZVlYWVlBNpvFy5cvMTQ05Oui+K1iDf/894uej6VEQlhanH7rfSvPDvBkp9LzsRbnVNycynBR
+      vAsDsyg+l8tBVVUEg0FYlgVZljE9PY1AgM+rqX+4DkCSJASDr7/89B7e7T090VXh3TUJjQGQ
+      0BgACY0BkNAYAAmNAZDQGAAJjQGQ0BgACY0BkNAYAAmNAZDQGAAJjQGQ0BgACY0BkNBcB2AY
+      BnZ3d9HpdFAsFmGaJsrlMprNppfjI/KV6wA6nQ4Mw8CjR4/gOA7W19eh6zq2tra8HB+Rr/4H
+      JeCmbZsfGvoAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='66' name='facebookcompartir' width='144'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='interaccionesociales' width='192'>
+      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
+      7QWqAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='66' name='twitterretwets' width='144'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

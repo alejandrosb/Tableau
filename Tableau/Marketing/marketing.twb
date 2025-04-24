@@ -1,0 +1,2128 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0208.0338                               -->
+<workbook original-version='18.1' source-build='2024.3.4 (20243.25.0208.0338)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
+    <DashboardExportButton />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='gastos_publicitarios(ad_spend) (marketing_dashboard)' inline='true' name='federated.125hi950r9mwpk1c7hrki0ll8kfk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='marketing_dashboard' name='excel-direct.0098l8m0xxhfug13cdvao1yqhwg7'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/a_marketing/marketing_dashboard.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0098l8m0xxhfug13cdvao1yqhwg7' name='gastos_publicitarios(ad_spend)' table='[&apos;gastos_publicitarios(ad_spend)$&apos;]' type='table'>
+          <columns gridOrigin='A1:C13:no:A1:C13:0' header='yes' outcome='6'>
+            <column datatype='date' name='Fecha' ordinal='0' />
+            <column datatype='string' name='Campaña' ordinal='1' />
+            <column datatype='integer' name='Gasto ($)' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[gastos_publicitarios(ad_spend)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C13:no:A1:C13:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Fecha]</local-name>
+            <parent-name>[gastos_publicitarios(ad_spend)]</parent-name>
+            <remote-alias>Fecha</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[gastos!publicitarios(ad!spend)_6B85921E6D2541ECA2D290D1B4DE4D95]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaña</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaña]</local-name>
+            <parent-name>[gastos_publicitarios(ad_spend)]</parent-name>
+            <remote-alias>Campaña</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[gastos!publicitarios(ad!spend)_6B85921E6D2541ECA2D290D1B4DE4D95]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gasto ($)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gasto ($)]</local-name>
+            <parent-name>[gastos_publicitarios(ad_spend)]</parent-name>
+            <remote-alias>Gasto ($)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[gastos!publicitarios(ad!spend)_6B85921E6D2541ECA2D290D1B4DE4D95]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='gastos_publicitarios(ad_spend)' datatype='table' name='[__tableau_internal_object_id__].[gastos!publicitarios(ad!spend)_6B85921E6D2541ECA2D290D1B4DE4D95]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/pr/33tz587x6pb1svrc2y08mr9h0000gn/T/tableau-temp/#TableauTemp_034vjd81oxz7jp179bvok1hp0bl3.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/15/2025 06:24:48 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Fecha</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Fecha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha</remote-alias>
+              <ordinal>0</ordinal>
+              <family>gastos_publicitarios(ad_spend)</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[gastos!publicitarios(ad!spend)_6B85921E6D2541ECA2D290D1B4DE4D95]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Campaña</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Campaña]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaña</remote-alias>
+              <ordinal>1</ordinal>
+              <family>gastos_publicitarios(ad_spend)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[gastos!publicitarios(ad!spend)_6B85921E6D2541ECA2D290D1B4DE4D95]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gasto ($)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Gasto ($)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gasto ($)</remote-alias>
+              <ordinal>2</ordinal>
+              <family>gastos_publicitarios(ad_spend)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[gastos!publicitarios(ad!spend)_6B85921E6D2541ECA2D290D1B4DE4D95]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='gastos_publicitarios(ad_spend)' id='gastos!publicitarios(ad!spend)_6B85921E6D2541ECA2D290D1B4DE4D95'>
+            <properties context=''>
+              <relation connection='excel-direct.0098l8m0xxhfug13cdvao1yqhwg7' name='gastos_publicitarios(ad_spend)' table='[&apos;gastos_publicitarios(ad_spend)$&apos;]' type='table'>
+                <columns gridOrigin='A1:C13:no:A1:C13:0' header='yes' outcome='6'>
+                  <column datatype='date' name='Fecha' ordinal='0' />
+                  <column datatype='string' name='Campaña' ordinal='1' />
+                  <column datatype='integer' name='Gasto ($)' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='costos_por_mil_impresiones(cpm) (marketing_dashboard)' inline='true' name='federated.073vfdn0pvqbzc1euos981p3a4p0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='marketing_dashboard' name='excel-direct.1hv1obf0zbw6pz178zhre1hh7yvq'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/a_marketing/marketing_dashboard.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='marketing_dashboard (2)' name='excel-direct.0rrhav51lh039r166d42i004k1b0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/a_marketing/marketing_dashboard.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1hv1obf0zbw6pz178zhre1hh7yvq' name='costos_por_mil_impresiones(cpm)' table='[&apos;costos_por_mil_impresiones(cpm)$&apos;]' type='table'>
+          <columns gridOrigin='A1:C13:no:A1:C13:0' header='yes' outcome='6'>
+            <column datatype='date' name='Fecha' ordinal='0' />
+            <column datatype='string' name='Campaña' ordinal='1' />
+            <column datatype='integer' name='CPM ($)' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[costos_por_mil_impresiones(cpm)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C13:no:A1:C13:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Fecha]</local-name>
+            <parent-name>[costos_por_mil_impresiones(cpm)]</parent-name>
+            <remote-alias>Fecha</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaña</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaña]</local-name>
+            <parent-name>[costos_por_mil_impresiones(cpm)]</parent-name>
+            <remote-alias>Campaña</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CPM ($)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CPM ($)]</local-name>
+            <parent-name>[costos_por_mil_impresiones(cpm)]</parent-name>
+            <remote-alias>CPM ($)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Cpm ($)' datatype='integer' name='[CPM ($)]' role='measure' type='quantitative' />
+      <column caption='costos_por_mil_impresiones(cpm)' datatype='table' name='[__tableau_internal_object_id__].[costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/pr/33tz587x6pb1svrc2y08mr9h0000gn/T/tableau-temp/#TableauTemp_1l4ixga0wk5xxv14hcsyj1cnuay8.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/15/2025 06:30:21 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Fecha</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Fecha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha</remote-alias>
+              <ordinal>0</ordinal>
+              <family>costos_por_mil_impresiones(cpm)</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Campaña</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Campaña]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaña</remote-alias>
+              <ordinal>1</ordinal>
+              <family>costos_por_mil_impresiones(cpm)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CPM ($)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CPM ($)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CPM ($)</remote-alias>
+              <ordinal>2</ordinal>
+              <family>costos_por_mil_impresiones(cpm)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='costos_por_mil_impresiones(cpm)' id='costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824'>
+            <properties context=''>
+              <relation connection='excel-direct.1hv1obf0zbw6pz178zhre1hh7yvq' name='costos_por_mil_impresiones(cpm)' table='[&apos;costos_por_mil_impresiones(cpm)$&apos;]' type='table'>
+                <columns gridOrigin='A1:C13:no:A1:C13:0' header='yes' outcome='6'>
+                  <column datatype='date' name='Fecha' ordinal='0' />
+                  <column datatype='string' name='Campaña' ordinal='1' />
+                  <column datatype='integer' name='CPM ($)' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='costo_por_clic(cpc) (marketing_dashboard)' inline='true' name='federated.0f10jjb03j3czv1cw05dj13bei3y' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='marketing_dashboard' name='excel-direct.02vwms11ocboyh1g3u46q0nilugl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/a_marketing/marketing_dashboard.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.02vwms11ocboyh1g3u46q0nilugl' name='costo_por_clic(cpc)' table='[&apos;costo_por_clic(cpc)$&apos;]' type='table'>
+          <columns gridOrigin='A1:C13:no:A1:C13:0' header='yes' outcome='6'>
+            <column datatype='date' name='Fecha' ordinal='0' />
+            <column datatype='string' name='Campaña' ordinal='1' />
+            <column datatype='real' name='Costo por Clic ($)' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[costo_por_clic(cpc)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C13:no:A1:C13:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Fecha]</local-name>
+            <parent-name>[costo_por_clic(cpc)]</parent-name>
+            <remote-alias>Fecha</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[costo!por!clic(cpc)_5531C30BF95F41638B59BA5078CD7045]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaña</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaña]</local-name>
+            <parent-name>[costo_por_clic(cpc)]</parent-name>
+            <remote-alias>Campaña</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[costo!por!clic(cpc)_5531C30BF95F41638B59BA5078CD7045]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Costo por Clic ($)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Costo por Clic ($)]</local-name>
+            <parent-name>[costo_por_clic(cpc)]</parent-name>
+            <remote-alias>Costo por Clic ($)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[costo!por!clic(cpc)_5531C30BF95F41638B59BA5078CD7045]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='costo_por_clic(cpc)' datatype='table' name='[__tableau_internal_object_id__].[costo!por!clic(cpc)_5531C30BF95F41638B59BA5078CD7045]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/pr/33tz587x6pb1svrc2y08mr9h0000gn/T/tableau-temp/#TableauTemp_0va6ei71coaeqm150bai10tlssp2.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/15/2025 06:30:41 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Fecha</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Fecha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha</remote-alias>
+              <ordinal>0</ordinal>
+              <family>costo_por_clic(cpc)</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[costo!por!clic(cpc)_5531C30BF95F41638B59BA5078CD7045]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Campaña</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Campaña]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaña</remote-alias>
+              <ordinal>1</ordinal>
+              <family>costo_por_clic(cpc)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[costo!por!clic(cpc)_5531C30BF95F41638B59BA5078CD7045]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Costo por Clic ($)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Costo por Clic ($)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Costo por Clic ($)</remote-alias>
+              <ordinal>2</ordinal>
+              <family>costo_por_clic(cpc)</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[costo!por!clic(cpc)_5531C30BF95F41638B59BA5078CD7045]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='costo_por_clic(cpc)' id='costo!por!clic(cpc)_5531C30BF95F41638B59BA5078CD7045'>
+            <properties context=''>
+              <relation connection='excel-direct.02vwms11ocboyh1g3u46q0nilugl' name='costo_por_clic(cpc)' table='[&apos;costo_por_clic(cpc)$&apos;]' type='table'>
+                <columns gridOrigin='A1:C13:no:A1:C13:0' header='yes' outcome='6'>
+                  <column datatype='date' name='Fecha' ordinal='0' />
+                  <column datatype='string' name='Campaña' ordinal='1' />
+                  <column datatype='real' name='Costo por Clic ($)' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='tasa_de_clics(ctr) (marketing_dashboard)' inline='true' name='federated.1gvoxy804ihea31ae82v61qsg1qo' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='marketing_dashboard' name='excel-direct.019a1qc16i8gy91a3p5cw19h8ozm'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/a_marketing/marketing_dashboard.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.019a1qc16i8gy91a3p5cw19h8ozm' name='tasa_de_clics(ctr)' table='[&apos;tasa_de_clics(ctr)$&apos;]' type='table'>
+          <columns gridOrigin='A1:C13:no:A1:C13:0' header='yes' outcome='6'>
+            <column datatype='date' name='Fecha' ordinal='0' />
+            <column datatype='string' name='Campaña' ordinal='1' />
+            <column datatype='real' name='Tasa de Clics (%)' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tasa_de_clics(ctr)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C13:no:A1:C13:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Fecha]</local-name>
+            <parent-name>[tasa_de_clics(ctr)]</parent-name>
+            <remote-alias>Fecha</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[tasa!de!clics(ctr)_3C5DA80F17134E86B1846967D3A23FF0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaña</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaña]</local-name>
+            <parent-name>[tasa_de_clics(ctr)]</parent-name>
+            <remote-alias>Campaña</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[tasa!de!clics(ctr)_3C5DA80F17134E86B1846967D3A23FF0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tasa de Clics (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tasa de Clics (%)]</local-name>
+            <parent-name>[tasa_de_clics(ctr)]</parent-name>
+            <remote-alias>Tasa de Clics (%)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[tasa!de!clics(ctr)_3C5DA80F17134E86B1846967D3A23FF0]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='tasa_de_clics(ctr)' datatype='table' name='[__tableau_internal_object_id__].[tasa!de!clics(ctr)_3C5DA80F17134E86B1846967D3A23FF0]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/pr/33tz587x6pb1svrc2y08mr9h0000gn/T/tableau-temp/#TableauTemp_0isafac1i4o35c12q6d710638ccr.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/15/2025 06:33:02 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Fecha</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Fecha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha</remote-alias>
+              <ordinal>0</ordinal>
+              <family>tasa_de_clics(ctr)</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tasa!de!clics(ctr)_3C5DA80F17134E86B1846967D3A23FF0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Campaña</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Campaña]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaña</remote-alias>
+              <ordinal>1</ordinal>
+              <family>tasa_de_clics(ctr)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[tasa!de!clics(ctr)_3C5DA80F17134E86B1846967D3A23FF0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tasa de Clics (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Tasa de Clics (%)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tasa de Clics (%)</remote-alias>
+              <ordinal>2</ordinal>
+              <family>tasa_de_clics(ctr)</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tasa!de!clics(ctr)_3C5DA80F17134E86B1846967D3A23FF0]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='tasa_de_clics(ctr)' id='tasa!de!clics(ctr)_3C5DA80F17134E86B1846967D3A23FF0'>
+            <properties context=''>
+              <relation connection='excel-direct.019a1qc16i8gy91a3p5cw19h8ozm' name='tasa_de_clics(ctr)' table='[&apos;tasa_de_clics(ctr)$&apos;]' type='table'>
+                <columns gridOrigin='A1:C13:no:A1:C13:0' header='yes' outcome='6'>
+                  <column datatype='date' name='Fecha' ordinal='0' />
+                  <column datatype='string' name='Campaña' ordinal='1' />
+                  <column datatype='real' name='Tasa de Clics (%)' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='alcance_de_anuncios(ad_reach) (marketing_dashboard)' inline='true' name='federated.089poym1q2bmhy12mgir60vch8fu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='marketing_dashboard' name='excel-direct.1o4g4b41fmaxbg148e08q1qr5au1'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/a_marketing/marketing_dashboard.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1o4g4b41fmaxbg148e08q1qr5au1' name='alcance_de_anuncios(ad_reach)' table='[&apos;alcance_de_anuncios(ad_reach)$&apos;]' type='table'>
+          <columns gridOrigin='A1:C13:no:A1:C13:0' header='yes' outcome='2'>
+            <column datatype='date' name='Fecha' ordinal='0' />
+            <column datatype='string' name='Campaña' ordinal='1' />
+            <column datatype='integer' name='Alcance (personas)' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[alcance_de_anuncios(ad_reach)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C13:no:A1:C13:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Fecha]</local-name>
+            <parent-name>[alcance_de_anuncios(ad_reach)]</parent-name>
+            <remote-alias>Fecha</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[alcance!de!anuncios(ad!reach)_CE2A8132F7EA4ED084D4DE16D5B016BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaña</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaña]</local-name>
+            <parent-name>[alcance_de_anuncios(ad_reach)]</parent-name>
+            <remote-alias>Campaña</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[alcance!de!anuncios(ad!reach)_CE2A8132F7EA4ED084D4DE16D5B016BE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alcance (personas)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alcance (personas)]</local-name>
+            <parent-name>[alcance_de_anuncios(ad_reach)]</parent-name>
+            <remote-alias>Alcance (personas)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[alcance!de!anuncios(ad!reach)_CE2A8132F7EA4ED084D4DE16D5B016BE]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='date' name='[Fecha]' role='dimension' type='ordinal' />
+      <column caption='alcance_de_anuncios(ad_reach)' datatype='table' name='[__tableau_internal_object_id__].[alcance!de!anuncios(ad!reach)_CE2A8132F7EA4ED084D4DE16D5B016BE]' role='measure' type='quantitative' />
+      <column-instance column='[Fecha]' derivation='Month' name='[mn:Fecha:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/pr/33tz587x6pb1svrc2y08mr9h0000gn/T/tableau-temp/#TableauTemp_1coqhcs066nd8z12vw1p80m3znfu.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/15/2025 06:33:44 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Fecha</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Fecha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha</remote-alias>
+              <ordinal>0</ordinal>
+              <family>alcance_de_anuncios(ad_reach)</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[alcance!de!anuncios(ad!reach)_CE2A8132F7EA4ED084D4DE16D5B016BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Campaña</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Campaña]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaña</remote-alias>
+              <ordinal>1</ordinal>
+              <family>alcance_de_anuncios(ad_reach)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[alcance!de!anuncios(ad!reach)_CE2A8132F7EA4ED084D4DE16D5B016BE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Alcance (personas)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Alcance (personas)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Alcance (personas)</remote-alias>
+              <ordinal>2</ordinal>
+              <family>alcance_de_anuncios(ad_reach)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[alcance!de!anuncios(ad!reach)_CE2A8132F7EA4ED084D4DE16D5B016BE]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[mn:Fecha:ok]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#35628f'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#406d9b'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#4979a7'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#5485b2'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#6091bc'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#6d9ec6'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#7aaad0'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#87b7d9'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#97c4e2'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#a7d1ea'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='alcance_de_anuncios(ad_reach)' id='alcance!de!anuncios(ad!reach)_CE2A8132F7EA4ED084D4DE16D5B016BE'>
+            <properties context=''>
+              <relation connection='excel-direct.1o4g4b41fmaxbg148e08q1qr5au1' name='alcance_de_anuncios(ad_reach)' table='[&apos;alcance_de_anuncios(ad_reach)$&apos;]' type='table'>
+                <columns gridOrigin='A1:C13:no:A1:C13:0' header='yes' outcome='2'>
+                  <column datatype='date' name='Fecha' ordinal='0' />
+                  <column datatype='string' name='Campaña' ordinal='1' />
+                  <column datatype='integer' name='Alcance (personas)' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='costos_por_clic(ad_clicks) (marketing_dashboard)' inline='true' name='federated.0zom94e08dffnk0zo6jsi0aiy5h1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='marketing_dashboard' name='excel-direct.01zwvrj1915cfs10669cj02wojfb'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/luisalejandro/Documents/mk_visual/tableau/a_marketing/marketing_dashboard.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.01zwvrj1915cfs10669cj02wojfb' name='costos_por_clic(ad_clicks)' table='[&apos;costos_por_clic(ad_clicks)$&apos;]' type='table'>
+          <columns gridOrigin='A1:D13:no:A1:D13:0' header='yes' outcome='6'>
+            <column datatype='date' name='Fecha' ordinal='0' />
+            <column datatype='string' name='Campaña' ordinal='1' />
+            <column datatype='integer' name='Clics' ordinal='2' />
+            <column datatype='real' name='Costo por Clic ($)' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[costos_por_clic(ad_clicks)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D13:no:A1:D13:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Fecha]</local-name>
+            <parent-name>[costos_por_clic(ad_clicks)]</parent-name>
+            <remote-alias>Fecha</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[costos!por!clic(ad!clicks)_7B523F2E5A62420FBF826C706A5C55B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaña</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Campaña]</local-name>
+            <parent-name>[costos_por_clic(ad_clicks)]</parent-name>
+            <remote-alias>Campaña</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[costos!por!clic(ad!clicks)_7B523F2E5A62420FBF826C706A5C55B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clics</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Clics]</local-name>
+            <parent-name>[costos_por_clic(ad_clicks)]</parent-name>
+            <remote-alias>Clics</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[costos!por!clic(ad!clicks)_7B523F2E5A62420FBF826C706A5C55B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Costo por Clic ($)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Costo por Clic ($)]</local-name>
+            <parent-name>[costos_por_clic(ad_clicks)]</parent-name>
+            <remote-alias>Costo por Clic ($)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[costos!por!clic(ad!clicks)_7B523F2E5A62420FBF826C706A5C55B7]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='costos_por_clic(ad_clicks)' datatype='table' name='[__tableau_internal_object_id__].[costos!por!clic(ad!clicks)_7B523F2E5A62420FBF826C706A5C55B7]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/pr/33tz587x6pb1svrc2y08mr9h0000gn/T/tableau-temp/#TableauTemp_184mnv40dhmunh0zpc1gx03yxv6y.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/15/2025 06:35:49 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Fecha</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Fecha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha</remote-alias>
+              <ordinal>0</ordinal>
+              <family>costos_por_clic(ad_clicks)</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[costos!por!clic(ad!clicks)_7B523F2E5A62420FBF826C706A5C55B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Campaña</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Campaña]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Campaña</remote-alias>
+              <ordinal>1</ordinal>
+              <family>costos_por_clic(ad_clicks)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_S2' />
+              <object-id>[costos!por!clic(ad!clicks)_7B523F2E5A62420FBF826C706A5C55B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Clics</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Clics]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Clics</remote-alias>
+              <ordinal>2</ordinal>
+              <family>costos_por_clic(ad_clicks)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[costos!por!clic(ad!clicks)_7B523F2E5A62420FBF826C706A5C55B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Costo por Clic ($)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Costo por Clic ($)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Costo por Clic ($)</remote-alias>
+              <ordinal>3</ordinal>
+              <family>costos_por_clic(ad_clicks)</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[costos!por!clic(ad!clicks)_7B523F2E5A62420FBF826C706A5C55B7]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='costos_por_clic(ad_clicks)' id='costos!por!clic(ad!clicks)_7B523F2E5A62420FBF826C706A5C55B7'>
+            <properties context=''>
+              <relation connection='excel-direct.01zwvrj1915cfs10669cj02wojfb' name='costos_por_clic(ad_clicks)' table='[&apos;costos_por_clic(ad_clicks)$&apos;]' type='table'>
+                <columns gridOrigin='A1:D13:no:A1:D13:0' header='yes' outcome='6'>
+                  <column datatype='date' name='Fecha' ordinal='0' />
+                  <column datatype='string' name='Campaña' ordinal='1' />
+                  <column datatype='integer' name='Clics' ordinal='2' />
+                  <column datatype='real' name='Costo por Clic ($)' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='alcancedeanuncios'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Alcance de anuncios</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='alcance_de_anuncios(ad_reach) (marketing_dashboard)' name='federated.089poym1q2bmhy12mgir60vch8fu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.089poym1q2bmhy12mgir60vch8fu'>
+            <column datatype='integer' name='[Alcance (personas)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Fecha]' role='dimension' type='ordinal' />
+            <column-instance column='[Fecha]' derivation='Month' name='[mn:Fecha:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Alcance (personas)]' derivation='Sum' name='[sum:Alcance (personas):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.089poym1q2bmhy12mgir60vch8fu].[mn:Fecha:ok]' value='iL' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.089poym1q2bmhy12mgir60vch8fu].[mn:Fecha:ok]' value='iL' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.089poym1q2bmhy12mgir60vch8fu].[mn:Fecha:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.089poym1q2bmhy12mgir60vch8fu].[sum:Alcance (personas):qk]</rows>
+        <cols>[federated.089poym1q2bmhy12mgir60vch8fu].[mn:Fecha:ok]</cols>
+      </table>
+      <simple-id uuid='{7EAA4FAF-00D0-4712-9BB7-C7CB8DAA5581}' />
+    </worksheet>
+    <worksheet name='costoporclic'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Costo por clic</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='costo_por_clic(cpc) (marketing_dashboard)' name='federated.0f10jjb03j3czv1cw05dj13bei3y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0f10jjb03j3czv1cw05dj13bei3y'>
+            <column datatype='real' name='[Costo por Clic ($)]' role='measure' type='quantitative' />
+            <column-instance column='[Costo por Clic ($)]' derivation='Avg' name='[win:avg:Costo por Clic ($):qk]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0f10jjb03j3czv1cw05dj13bei3y].[win:avg:Costo por Clic ($):qk]' value='n&quot;$&quot;#,##0.00;-&quot;$&quot;#,##0.00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0f10jjb03j3czv1cw05dj13bei3y].[win:avg:Costo por Clic ($):qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='15'>&lt;</run>
+                <run bold='true' fontsize='15'>[federated.0f10jjb03j3czv1cw05dj13bei3y].[win:avg:Costo por Clic ($):qk]</run>
+                <run bold='true' fontsize='15'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6893CAEA-7FFF-403B-8741-F75DBDAFE7DA}' />
+    </worksheet>
+    <worksheet name='costoporclic_'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Costo por clic</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='costos_por_clic(ad_clicks) (marketing_dashboard)' name='federated.0zom94e08dffnk0zo6jsi0aiy5h1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zom94e08dffnk0zo6jsi0aiy5h1'>
+            <column datatype='real' name='[Costo por Clic ($)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Fecha]' role='dimension' type='ordinal' />
+            <column-instance column='[Fecha]' derivation='Month' name='[mn:Fecha:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Costo por Clic ($)]' derivation='Sum' name='[sum:Costo por Clic ($):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0zom94e08dffnk0zo6jsi0aiy5h1].[mn:Fecha:qk]' field-type='quantitative' max='12' min='1' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.0zom94e08dffnk0zo6jsi0aiy5h1].[mn:Fecha:qk]' scope='cols' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' data-class='subtotal' field='[federated.0zom94e08dffnk0zo6jsi0aiy5h1].[mn:Fecha:qk]' value='iL' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0zom94e08dffnk0zo6jsi0aiy5h1].[mn:Fecha:qk]' value='iL' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0zom94e08dffnk0zo6jsi0aiy5h1].[sum:Costo por Clic ($):qk]</rows>
+        <cols>[federated.0zom94e08dffnk0zo6jsi0aiy5h1].[mn:Fecha:qk]</cols>
+      </table>
+      <simple-id uuid='{063E0F65-2DCE-4CCE-835B-27766094AAA7}' />
+    </worksheet>
+    <worksheet name='costopormil'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Coste por mil</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='costos_por_mil_impresiones(cpm) (marketing_dashboard)' name='federated.073vfdn0pvqbzc1euos981p3a4p0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.073vfdn0pvqbzc1euos981p3a4p0'>
+            <column caption='costos_por_mil_impresiones(cpm)' datatype='table' name='[__tableau_internal_object_id__].[costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824]' derivation='Count' name='[__tableau_internal_object_id__].[win:cnt:costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824:qk]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.073vfdn0pvqbzc1euos981p3a4p0].[__tableau_internal_object_id__].[win:cnt:costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824:qk]' value='n&quot;$&quot;#,##0.00;-&quot;$&quot;#,##0.00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.073vfdn0pvqbzc1euos981p3a4p0].[__tableau_internal_object_id__].[win:cnt:costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='15'>&lt;</run>
+                <run bold='true' fontsize='15'>[federated.073vfdn0pvqbzc1euos981p3a4p0].[__tableau_internal_object_id__].[win:cnt:costos!por!mil!impresiones(cpm)_D95742B1DB5F45A096FF4A81DEC82824:qk]</run>
+                <run bold='true' fontsize='15'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{FC683C31-7690-4214-9EDA-69A4B874A392}' />
+    </worksheet>
+    <worksheet name='gastospublicitarios'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Gastos Publicitarios</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gastos_publicitarios(ad_spend) (marketing_dashboard)' name='federated.125hi950r9mwpk1c7hrki0ll8kfk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.125hi950r9mwpk1c7hrki0ll8kfk'>
+            <column datatype='integer' name='[Gasto ($)]' role='measure' type='quantitative' />
+            <column-instance column='[Gasto ($)]' derivation='Avg' name='[cum:avg:Gasto ($):qk]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Sum' ordering-type='Rows' type='CumTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.125hi950r9mwpk1c7hrki0ll8kfk].[cum:avg:Gasto ($):qk]' value='n&quot;$&quot;#,##0.00;-&quot;$&quot;#,##0.00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.125hi950r9mwpk1c7hrki0ll8kfk].[cum:avg:Gasto ($):qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='15'>&lt;</run>
+                <run bold='true' fontsize='15'>[federated.125hi950r9mwpk1c7hrki0ll8kfk].[cum:avg:Gasto ($):qk]</run>
+                <run bold='true' fontsize='15'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B056F251-9B4E-4AD2-A3B8-C05FED3E2351}' />
+    </worksheet>
+    <worksheet name='tasadeclic'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Tasa de clic</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tasa_de_clics(ctr) (marketing_dashboard)' name='federated.1gvoxy804ihea31ae82v61qsg1qo' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gvoxy804ihea31ae82v61qsg1qo'>
+            <column datatype='real' name='[Tasa de Clics (%)]' role='measure' type='quantitative' />
+            <column-instance column='[Tasa de Clics (%)]' derivation='Avg' name='[avg:Tasa de Clics (%):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1gvoxy804ihea31ae82v61qsg1qo].[avg:Tasa de Clics (%):qk]' value='c#,##0.00&quot;%&quot;;-#,##0.00&quot;%&quot;' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1gvoxy804ihea31ae82v61qsg1qo].[avg:Tasa de Clics (%):qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='15'>&lt;</run>
+                <run bold='true' fontsize='15'>[federated.1gvoxy804ihea31ae82v61qsg1qo].[avg:Tasa de Clics (%):qk]</run>
+                <run bold='true' fontsize='15'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E1DEB86D-AB53-48F0-98A7-1F614E38E74F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='941' maxwidth='1780' minheight='841' minwidth='1680' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='94899' id='12' param='horz' type-v2='layout-flow' w='99102' x='449' y='850'>
+            <zone h='94899' id='10' type-v2='layout-basic' w='99102' x='449' y='850'>
+              <zone forceUpdate='true' h='8634' id='3' type-v2='text' w='99102' x='449' y='850'>
+                <formatted-text>
+                  <run bold='true' fontalignment='1' fontsize='24'>Panel de Marketing</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='17488' id='5' name='gastospublicitarios' w='24067' x='449' y='9484'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='17488' id='6' name='costopormil' w='25481' x='24516' y='9484'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='17488' id='7' name='costoporclic' w='24776' x='49997' y='9484'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='17488' id='8' name='tasadeclic' w='24778' x='74773' y='9484'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='65319' id='9' name='alcancedeanuncios' w='49550' x='449' y='30430'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='65319' id='13' name='costoporclic_' w='49552' x='49999' y='30430'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='3458' id='14' type-v2='empty' w='99102' x='449' y='26972'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='3401' id='21' type-v2='dashboard-object' w='99102' x='449' y='95749'>
+            <button action='' button-click-action-metadata='pdf' button-type='text'>
+              <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;pdf&quot; dashboarddoc-id=&quot;{A04DEAB0-2F8E-47A7-AE68-E0A614F1D4FE}&quot;</export-button-action>
+              <button-visual-state>
+                <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+              </button-visual-state>
+            </button>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98300' id='22' param='vert' type-v2='layout-flow' w='99102' x='449' y='850'>
+                <zone forceUpdate='true' h='8634' id='3' type-v2='text' w='99102' x='449' y='850'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='24'>Panel de Marketing</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='157' h='17488' id='5' is-fixed='true' name='gastospublicitarios' w='24067' x='449' y='9484'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='157' h='17488' id='6' is-fixed='true' name='costopormil' w='25481' x='24516' y='9484'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='157' h='17488' id='7' is-fixed='true' name='costoporclic' w='24776' x='49997' y='9484'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='157' h='17488' id='8' is-fixed='true' name='tasadeclic' w='24778' x='74773' y='9484'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='65319' id='9' is-fixed='true' name='alcancedeanuncios' w='49550' x='449' y='30430'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='65319' id='13' is-fixed='true' name='costoporclic_' w='49552' x='49999' y='30430'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3401' id='21' type-v2='dashboard-object' w='99102' x='449' y='95749'>
+                  <button action='' button-click-action-metadata='pdf' button-type='text'>
+                    <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;pdf&quot; dashboarddoc-id=&quot;{A04DEAB0-2F8E-47A7-AE68-E0A614F1D4FE}&quot;</export-button-action>
+                    <button-visual-state>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A04DEAB0-2F8E-47A7-AE68-E0A614F1D4FE}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='135'>
+    <window class='worksheet' name='gastospublicitarios'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{243B8C2B-0B99-43A7-9223-ED83E22F7682}' />
+    </window>
+    <window class='worksheet' name='costopormil'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4A6E3D89-1AB6-429A-A3BA-107F9F1D77F8}' />
+    </window>
+    <window class='worksheet' name='costoporclic'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FB5D38E1-E3B2-4080-9C6C-4F806E6AC939}' />
+    </window>
+    <window class='worksheet' name='tasadeclic'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{22DD39EB-E8AD-4354-8140-4D1B20F42587}' />
+    </window>
+    <window class='worksheet' name='alcancedeanuncios'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.089poym1q2bmhy12mgir60vch8fu].[mn:Fecha:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.089poym1q2bmhy12mgir60vch8fu].[mn:Fecha:ok]</field>
+            <field>[federated.089poym1q2bmhy12mgir60vch8fu].[yr:Fecha:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4434FBC0-5FFC-4A9B-96CD-39ECF7478E86}' />
+    </window>
+    <window class='worksheet' name='costoporclic_'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='horizontal'>
+              <node-reference>
+                <axis>[federated.0zom94e08dffnk0zo6jsi0aiy5h1].[mn:Fecha:qk]</axis>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zom94e08dffnk0zo6jsi0aiy5h1].[yr:Fecha:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{584FE19B-BA59-440A-B27B-7BF63A588B38}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='alcancedeanuncios'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='costoporclic'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='costoporclic_' />
+        <viewpoint name='costopormil'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='gastospublicitarios'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='tasadeclic'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='21' />
+      <device-preview selected='Desktop' visible='true'>
+        <device name='Large Desktop Monitor' type='Desktop' />
+      </device-preview>
+      <simple-id uuid='{DF0E1BC8-D565-4898-8841-32E0B8949BF7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAU4ElEQVR4nO3dXVBb553H8e85epeQEBIIyVBgw5sbU9ymcZ06mXY8nqQvmW2nnXY605tu
+      d+96v7nZm1zt7l12motOZjobdzp99Vuc2GM7fsk2Dus4CXYMBmHjYCywASMBAiT0es5eeKMY
+      G1wkS2A4/8+MZzRIevzo5XeOzvk/z3MUXdd1hDAodaM7IMRGkgAIQ5MACEOTAAhDkwAIQ5MA
+      CEOTAAhDkwAIQzNvdAeEWA8XLlxgYmICm83Gzp07aWhoQFEU2QMIY7h8+TJerxev18tvfvMb
+      EokE+Xxe9gDCOFpbW2lqauKjjz5idnaW3//+9xIAYRxnzpxB13UymQzBYJCf/OQnEgBhHG1t
+      bbS0tNDY2EgikeCNN96QAAjjaGlpobm5GQBN00in0ygyHFoYwcTEBDU1Ndjt9sLfIpGIBEAY
+      m5wGFYYmARCGJgEQhiYBEIYmARCGJgEQhiYBEIYmARCGJgEQhrbhAYhGo7z11ltcuXJlxfs1
+      TWN6evqRbYyOjvLOO+9w7do17i9sDwwMEI1GgXvjwWdmZvjoo48K9ycSCa5cuUIsFiOXy63Y
+      dl9fH4uLi8W+LMNbWlri2LFj9Pf3r3h/KpUiHo+X7f/78MMPuXbtGrdv3y7qeaZXX3311bL1
+      oki5XI7XXnuNl156CVVVSSQSHDlyBKfTyY0bNzh//jwAr732Gg0NDQwMDHDp0iWam5s5cuQI
+      8XicpqYmzp49SyAQ4NixY4XxHoODg9y+fZuenh4ymQy3bt0iGAwSjUZxOp0cOnQIr9fLwsIC
+      b775Jnfv3sVqtRbauHnzJuFwmHw+TzAY5MyZMwwODtLQ0MChQ4dIpVI0NDRs1Fv3xHvjjTfY
+      uXMnfr+fsbExjh8/TlNTEz09PVy5coXh4WGOHj1KR0cH586dY3JykubmZqanpzl+/DiRSIT6
+      +nr+8pe/APc2VkNDQ8C9cJ04cYLh4WF6e3sJBoNMTk4yPz8PQH19/Zr7uaF7gHQ6jd/vZ3p6
+      mmPHjqHrOhaLhcOHD3P27Fl8Ph9NTU1s376dYDDIyMgIfr+fU6dOce3aNTweT6GtDz74AJvN
+      xmeffcbMzAw9PT0AvPDCC1y4cIFsNouu6/T393PgwAFefvllnE4nw8PDdHR0sG/fPlRVRVEU
+      jh49ysmTJ7FarYyMjDA8PFzYWp09e5axsTHcbveGvGebxdLSEl1dXYRCIU6cOMFLL73E4cOH
+      ef/99/H5fLS3t7Nr1y6i0Sg3btzg3LlzJBIJJiYm8Hg8RCIR9u/fzwsvvMCZM2cYGBggHA5T
+      W1vL+Pg4Ho+HoaEhuru7uXDhAn19fSX1c0MDYLfbmZ2dZWlpiaWlJU6dOkVdXR1ms5lvfetb
+      fPLJJ0xOThKLxZibm2N2dpbR0VH8fj979uzhwIEDhbZ++tOf8sorr+Byuejt7S38bBodHSWT
+      yWAymQqPdblc9Pf3F7YYdrudgYEBjh8/TigUQlEUvF4vzz33HIqi4HA4mJqa4vbt2wSDQZ55
+      5hkOHjy4vm/WJvP5Hrmvrw9d1wmHwzidTvbu3cupU6fI5/PcuHEDgMXFRb761a8WPqOJiQli
+      sRiBQIDr16+TSqVQVZW9e/ficDgAcLvduFwuPB4PjzOec8NHg6ZSKcLhMKFQCJvNxvj4OHV1
+      daRSKebn5+nq6iISiWCxWNA0jcXFRdra2ujv7ycUChEKhZiZmcHlcmGz2Uin04TDYfx+f2FL
+      0tjYiKZpuN1uZmdn8fl8hMNhmpubyWazuFwurl27RigUIhaL4ff7gXsfYiwWw+v1EolEyOfz
+      NDU1cfXqVZqamqirq9vIt+6Jpmka4XAYn8+Hw+Hgs88+o7u7m5GREQDa29sZGBigpaWF6elp
+      stksHR0d9PX18emnn/Kd73yHuro6rly5QktLS2FDZLfbWVxcRNd1EokENTU1JBIJMpkMTqcT
+      s9mM0+lccz83PABC3O/zyer3/7ytJAmAMLQNPw0qxEaSAAhDkwAIQ5MACEOTAAhDkwAIQ5MA
+      CEOTAAhDkwAIQ5MACEOTAAhDkwAIQ9t0AdB1/bHGf4sng6ZpG90FYIOnRBYrn89z5MgRJiYm
+      8Pl8HD9+nGg0SlNTE4qicOvWLd59912ampq4fv06Fy5coK6ujqtXr9LX18dTTz2FqqrMz89z
+      9OhR3G53YQaYx+Ohurp6o1+iISwsLLB//36qq6vxer18+OGH1NbWMjc3x4kTJ9B1nUAgQD6f
+      5+TJk8zNzREMBjl58iTxeLwwaakcNtUeoL+/n76+PqxWKwC7du3igw8+KEyQ+POf/8yOHTs4
+      ePAgZ8+epbu7G03T6OnpIZ1Oc/nyZQAOHjxIV1cXf/rTnzhw4EDhtuxZ1sehQ4fI5XKYTCbC
+      4TBvv/02iUSCu3fv8uyzz/LJJ58A0NvbSy6X4/z585w7d458Ps/f/va3si5SsKkCsH37dnbs
+      2MH777+PqqpEo9HCdDkAs9lMa2sriUSCl19+md7eXi5evEh9fT3t7e2FFSKSySRPPfUUZrOZ
+      ZDJJa2vrsimTorJ+8IMfYDKZOHnyJF1dXXR1dQHg9/s5duwY3/72t4F7K4a0t7cTCASIRCK0
+      t7dTV1fH0tJS2fqyqS6RFIlE6Ovrw2w2Mzg4SH9/P6qqMjY2xuTkJH6/n9dff53du3fT09ND
+      JBLhZz/7GYcPH+bGjRv88pe/5MCBA3zlK1/h9ddfJxAI0NzczK9//Wvq6+vLtlsVj3bp0iVu
+      3rxJW1sbvb29XLp0iVQqRSqVIplMMjIywscff8zu3bvZv38/VquVn//85/zud7/DYrHg8/nK
+      1pdNNyNsZGSEQCBAVVUVqVQKi8VCX18fbW1tVFVVkclksNls6Lp+7zqwZjOappHP57FYLIV2
+      0uk0VqsVRVGW3Rbro6+vj+7u7r/7uGw2i8lkQlXVZbfLZdMFQIhy2lTHAEKUmwRAGJoEQBia
+      BEAYmgRAGJoEQBiaBEAYmgRAGJoEQBiaBEAYmgRAGJoEQBiaBEAYmgRAGJoEQBiaBEAYmgRA
+      GJoEQBiaBEAYmgRAGJoEQBiaBEAYmgRAGJoEYB3Mzs4yMTEBwODg4GOvQToxMcHs7Gw5ukY6
+      nWZ8fLwsbW1Gm2ppxM3q0KFDxGIxXnnlFc6cOUNnZyeXLl2isbGRWCxGLpejra2N0dFRAHbs
+      2EFfXx/V1dWoqsr09DTPPPMMiqIwOjrKqVOn2LNnD3fv3iWfz/P000+jaRq9vb14vV5qamq4
+      c+cOVVVVVFVV4fF4mJ6exuFwcOfOHdxuN6FQiN7eXlpbW7l9+zYul4urV6+ya9cu7ty5w+zs
+      LF/72tfKugrbk0gCUGGapjE3N4fL5WJ+fh6Ad999F1VVCYVCRCIRTp8+zQ9/+EMGBgaYmZkh
+      kUhw8+ZNdu/ezW9/+1u2bduG0+mkubmZP/zhD3zpS19ifn6e9957D5PJVLh/bGyMN998k+9/
+      //tks1nC4TDbt29n165dvPXWWzQ3N6PrOoODg/j9fr7+9a+TTCYZGhqip6eH559/nj/+8Y9c
+      v36dffv2oWnalg/A1n51T4Dh4WGSySS5XI6LFy8C91an/nyN+8uXLxMKhUin02zfvh2/308y
+      mSQQCOD1epmenqa+vh673U46naa6uhqPx0M2m2V6epq2tjby+Tw3b95kcnKSqqoqAHbu3ElV
+      VRWqqhKLxUgmk4W/u1wuMpkMDQ0NOBwO4N6FRxobG8lms/z4xz/m/PnzzM3Nbcybto5kbdAK
+      GxkZwe/343Q6GRoaQtd1Ojs7OXXqFJ2dnYTDYex2O08//TSqqjI3N0dnZyenT5+msbGRfD7P
+      yMgI+/btw+v1cvr0aVKpFHv27GFwcJCZmRm++93vomka77zzDtXV1XR2duLz+RgdHWXbtm2c
+      PXuWxsZGtm3bht/vZ3R0lMbGRt577z12797N4uIiNpuNixcv8uKLL3Lp0iXS6TTf+973tvyy
+      8RIAYWjyE0gYmgRAGFpZApDP58vRjBDrbs2nQVOpFKOjo7hcLgAcDgeZTIZgMIimaXKBObEp
+      rTkAVquVXC7H3bt3sVgsRKNRXC4Xqqqi6/qWP1sgtqY1/wSKx+OYTCYCgQBms5lt27Zht9sr
+      2TchKq4sp0Hz+bzsAcSmJGeBhKFJAIShSQCEoUkAhKFJAIShrTkAmqYRj8fRdZ10Ok0ulyOb
+      zVayb0JU3JoLYdlslrGxMTweD3fu3MHj8aAoCtu3b0fXdTRNq2Q/haiINe8BMpkM+Xy+sPWX
+      4Q9iK1hzISyTyTA/P4/X6y188TVNw2azSSFMbFpSCRaGJmeBhKFJAIShSQCEoUkAhKFJAISh
+      FbUy3P0njBRFKXtnhFhvRc0Jvn79Oh6Ph1gsRm1tLZlMhvb29kr2T4iKWnMAFEVBVdXCpPjZ
+      2VkcDgeapklVWGwq//zvf2UhmQaKCEAmk8HhcJBKpVAUhdbWVrLZrEyKF5vORHSeeCIFFBEA
+      t9uN2+2uWKeE2AhyFkgYmgRAGJoEQBiaBEAYmgRAGJoEQBha0atDW61W8vk8Xq+3cJ0pITar
+      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
+      /wGJlz4wVBaQpAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='alcancedeanuncios' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='32' name='costoporclic' width='84'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='costoporclic_' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='32' name='costopormil' width='84'>
+      iVBORw0KGgoAAAANSUhEUgAAAFQAAAAgCAYAAACM2F8WAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFhUlEQVRoge2ZXUhTfRzHP6c9Wi2LdBozCIbKSpDI3i56FbsQywhvJg2iF7qIQRBdGL3e
+      RBCLIHpZULEFpqYEpgVaK71oSiMMDDE1E4rI4dp6s+WWm89FnMNZ0y13Tjz0sA8Mxvf3Pb/z
+      3/e/s//5nwmTk5OTpFCNWf/1AP5vpAJVmVSgKpMKVGVSgapMKlCVSQWqMqlAVSYVqMqkAlWZ
+      VKAqkwpUZVQPdHBwkM7OTrXb/jWoHmh3dze1tbVqt/1r+EetRhMTEzx//pyenh68Xi9dXV0U
+      FRWxYMGCuMeNjo7S2NjIokWLMJlM0/revHlDd3c3Q0NDjI6Okpuby5o1a9i0adNvj9Hj8dDa
+      2sqLFy8AWL58OeXl5ej1elX8AIIaz0NdLhdWq5X3799H6enp6ZSXl3Py5MmYY/x+Pzdv3uTO
+      nTuEQiHWrVvHxYsXp/RdvXqV5uZmIpFITN3tdqPRaBKOcXBwkIMHD+Lz+aJ0nU7HpUuXMBqN
+      ivwiigMdGBhg7969hEIhMjMzyczM5OPHj+j1el6+fElOTg6tra2SPxQKcePGDerr6/n+/buk
+      TxeozWbDbrcjCAJGo5FVq1ah0+l4+vQpz549w2KxsG/fvrhj/PHjBxUVFfh8PvR6PWazGYC6
+      ujo8Hg86nY779++TlpaWlF+O4ku+ubmZUCjE0qVLqampoaGhgSdPnmCz2ejv76elpSXK7/V6
+      sdvtABiNRrKzs+nq6op7jsWLF3Pq1ClWr14tabt37+bAgQO43e6EgTqdTnw+H3PnzuXy5csY
+      DAbg5yTu2rULn8+H0+lk69atSfnlKF6UXr9+DcD69euZNSu63bJly6iuro7SNBoN+fn5WK1W
+      amtrKS4ujtu/rKyM27dvR4UpsnnzZr5+/ZpwjOKklpSUSOEAGAwGSkpKojzJ+OUoDjQ3NxeA
+      u3fvMjIyktCv1+tpaGigtLQUQRAS+vPz89FqtTH6t2/faGpqoqCgIGGPd+/eAbBx48aYmqiJ
+      nmT8chQHWlVVhUajwe/3s2PHDux2O58/f+bLly9KW0/L27dv2b9/P8PDw+zZsyeuNxKJ4PV6
+      AaZcnUXN6/USiURm7P8Vxb+hhYWFuN1uAoEAjx8/5tq1awwMDFBaWgpAVlYWdXV1ZGdnKzrP
+      xMQEx44do729HYC8vDwaGxvJy8uLe9z4+DjhcBiAOXPmxNRFLRwOMz4+Lr3/Xf+vV49qN/Za
+      rZbt27dTWFiIyWTi8OHDpKen4/f7sdlsinqHw2GOHj1Ke3s7giBgNpu5detWwjDFcYkf+tOn
+      TzF1URN9M/X/yh/Zy2dkZGA2m6msrASgt7c36V6RSIQTJ07Q0dFBWloaZ8+elSbrd8nJyQGg
+      v78/piZqoicZvxzFgba0tDA2NjZlLSsrC4DZs2cn3d/lcuF0OgE4d+4cW7ZsmXGPFStWAPDo
+      0aOYmqjJ7zZm6pejONDr169TUVHBlStX6OnpIRgMMjY2xsOHD6mvr48aYDLcu3cPgIKCAlau
+      XEkgEIh6BYNBydvb24vFYsFisdDX1yfpVVVVAPT19eFwOCTd4XBIPvm2d6Z+OYp3Sjt37uTV
+      q1fT1g0GAw6Hg/nz5wNgtVppa2uT6sFgUApFvu8/f/48xcXFmEwmhoeHp+2/cOFC6Vvjcrk4
+      dOgQABcuXGDDhg2S7/jx4zx48AD4uVILgiDd5pWVlXHmzJmovjP1iyhe5Wtqaujo6KCtrY2h
+      oSFGRkYQBIElS5awbds2TCYT8+bNk/zBYHDaWyq5Ls7zhw8f4p5fXJGBmI2FnNOnT5ORkUFT
+      UxMej0fyV1ZWcuTIEcV+EVUejsiprq7GYDBgsVjUbKsagUBAWiSLioqmXKmV+FV7fPe3oNVq
+      Wbt27R/zp/4CUZl/ARvGmhbB3+6UAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='32' name='gastospublicitarios' width='124'>
+      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
+    </thumbnail>
+    <thumbnail height='32' name='tasadeclic' width='84'>
+      iVBORw0KGgoAAAANSUhEUgAAAFQAAAAgCAYAAACM2F8WAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAGH0lEQVRoge2Yb0hT7RvHP9szp2lUGOoc/dGSUWb/OJS+0DAiVuCLUlhYLwoKSsmgoKRS
+      0IJeBf2xCAsaGRgE2R8aOqiQIIcRUSJDHWhOy01xTou1pdv9exE7P2U96nrO8/vB8+zz6nDd
+      13V97/M9h/u+z1EJIQQxFEP9/57AP42YoQoTM1RhYoYqTMxQhYkZqjAxQxUmZqjCxAxVmJih
+      ChMzVGFihipMzFCFiRmqMBqlG7rdblpbW3E6nbjdbhITE9Hr9ezcuZPVq1dH1cvlctHc3ExH
+      RwcAGzZsYPfu3eh0ur+k+f79e1paWvD5fOTl5VFUVPRL/aamJjweDyaTiUWLFs1rziol/4fW
+      1dXR0NDAn7U0mUycOXNmXr16enqoqKhgdHR0Rnzp0qXU1dVhMBh+S9NisVBbW0soFJJje/bs
+      oaqqakbdx48fOXz4MFu2bOHWrVvzmjMo/IYODQ0BkJubS05ODnq9nv7+fmw2Gw6Hg4cPH7Jx
+      40aMRuOsfSYnJ2UzdTod+/fvB6CxsRGXy0VFRQXPnz8nLi4uKk2fz8fVq1fRaDQcP34cnU7H
+      5cuXefLkCXv37mXdunUACCG4cuUK8fHxnD9/PjoThILYbDbhdDoj4sFgUBw5ckRIkiRqa2vn
+      7GOxWIQkSSI/P1/09fXJ8b6+PpGfny8kSRIWiyVqzXfv3glJkkRZWZmcV19fLyRJEnfu3JFj
+      LS0tQpIk0dDQMO97D6PoppSXl8fy5csj4mq1mrS0NACSkpLm7PPs2TMACgsLycjIkOMZGRkU
+      FhbOyIlG8/PnzwCsXbtWzsvOzgZgcHAQgB8/fnDjxg2ys7M5cODAnHON0I264jdobW3l1atX
+      ALIhsxG+uYKCgoixcCycE43mwoULAfB4PHJe+Dq86Tx48IDh4WGqqqpQq6O3R/FdPhgM0tbW
+      htfrxe128/r1a+x2OyqVitOnTyNJ0qz1oVCIkZERgIjdfHpsZGSEUCiEWq2et2ZmZiYAHz58
+      wO/3Ex8fj81mAyArK4uxsTHu3r3LwYMHycrKoqmpiY6ODlJTUykqKmLFihVz3r/ihk5NTWGx
+      WJiYmMDj8dDb2/tTSKMhEAjMWe/3+wkGgwAkJCREjIdjwWAQv99PYmLivDUzMzOxWq1UVlaS
+      n58PgF6vp7GxEb/fj9Fo5Pr163i9XrZu3cqqVasoLy/nzZs3FBcXs379esxm8+w3EPWqGyVj
+      Y2PCbDaL3NxcIUmSMJvNc9YUFBQISZJEe3t7xFh7e7uQJEkUFBT8Jc0vX76IT58+iVAoJAKB
+      gCgpKREnTpwQQghx9uxZIUmSePnypZy/Y8cOIUmSmJiYmHXuf/saumTJEg4dOsSxY8cAsFqt
+      c9akpKQA0NXVFTEWjoVzflczPT2dlStXolKpuH37NgMDA5w8eRKAgYEB4L8b1vTrudbu/9mn
+      Z3j96u/v/9NDeJhNmzYB8OLFi4ixcGzz5s2KaHZ1dXH//n1KSkrkE8WCBQsAGB8fl/O8Xi8w
+      9ylFMUP7+/spLS3l6dOnM9YtIQQOh4P6+noA1qxZg0qlAqCzs5Py8nLKy8ux2+1yzb59+wCw
+      2+0z1iyz2SznmUwmgKg1pzM1NcWFCxdISkri6NGjcjz8IN6+fQv8NLanpwetVoter5/VB8U2
+      pcnJSRwOBxcvXuTSpUukp6eTkpJCb2+v/KTVajVlZWVyjdfrlSc9/ShjMBgwGo1YrVZu3rzJ
+      o0ePUKlU8leR0WiUPz2j1ZzOvXv36Onp4dSpUyxevFiOm0wmHj9+zLVr12hra6O7u5upqSlK
+      S0vRaGa37I+ampqaKL37JQkJCWg0GtxuN+Pj40xMTOByueQ3x2AwUF1dTV5enlwzODhIc3Mz
+      ALt27ZpxLNm+fTsej4fu7m6+fv3Kt2/fUKvVFBcXU11dLb9xQoioNMM4nU7OnTvHsmXLqKmp
+      mXHmTE5ORqfTYbPZGBgYIBAIsG3bNiorK4mLi5vVB0V/joQZGhpieHiY0dFRkpOT0ev1pKam
+      /lYvn89HZ2cnADk5OSQmJiqiGQqF8Pl8aLVatFrtL3O+f/9Od3c3aWlppKenz2u+f4uh/2Zi
+      P5gV5j8JLN9BxHnBvwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
