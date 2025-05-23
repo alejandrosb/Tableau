@@ -1,0 +1,501 @@
+cod_cliente,medio de compra,producto,cantidad,precio,subtotal,descuento,total,fecha compra,tienda,ciudad
+C001,Online,Camiseta,1,20.0,20.0,0.68,19.32,2025-05-02,Tienda Online,Rosario
+C002,Online,Traje,2,150.0,300.0,57.16,242.84,2025-04-25,Tienda Online,Mendoza
+C003,Tienda Fisica,Blusa,2,25.0,50.0,0.41,49.59,2025-02-12,Moda Express,Ciudad de Santa Fe
+C004,Online,Sueter,2,40.0,80.0,7.51,72.49,2025-02-22,Tienda Online,Rosario
+C005,Online,Pantalon,3,45.0,135.0,23.8,111.2,2024-10-03,Tienda Online,Mendoza
+C006,Tienda Fisica,Traje,3,150.0,450.0,76.57,373.43,2024-06-23,Boutique Real,Rosario
+C007,Online,Falda,3,30.0,90.0,18.97,71.03,2025-01-15,Tienda Online,Ciudad de Cordoba
+C008,Online,Pantalon,2,45.0,90.0,7.57,82.43,2024-07-13,Tienda Online,Ciudad de Santa Fe
+C009,Online,Jeans,3,50.0,150.0,21.51,128.49,2024-09-03,Tienda Online,Ciudad de Cordoba
+C010,Tienda Fisica,Camiseta,3,20.0,60.0,10.83,49.17,2024-09-15,Moda Express,Buenos Aires
+C011,Online,Falda,1,30.0,30.0,8.19,21.81,2025-05-21,Tienda Online,Ciudad de Cordoba
+C012,Online,Traje,3,150.0,450.0,42.25,407.75,2024-12-22,Tienda Online,Mendoza
+C013,Online,Vestido,1,35.0,35.0,10.18,24.82,2025-03-31,Tienda Online,Rosario
+C014,Online,Pantalon,2,45.0,90.0,14.74,75.26,2025-01-03,Tienda Online,Ciudad de Santa Fe
+C015,Tienda Fisica,Jeans,2,50.0,100.0,28.18,71.82,2025-03-18,Ropa Moderna,Buenos Aires
+C016,Tienda Fisica,Falda,3,30.0,90.0,2.29,87.71,2024-09-14,Ropa Moderna,Ciudad de Santa Fe
+C017,Tienda Fisica,Blusa,2,25.0,50.0,11.65,38.35,2024-08-08,Boutique Real,Rosario
+C018,Tienda Fisica,Chaqueta,1,80.0,80.0,19.88,60.12,2024-11-16,Ropa Moderna,Ciudad de Cordoba
+C019,Tienda Fisica,Camisa Formal,1,60.0,60.0,6.84,53.16,2025-04-11,Plaza Ropa,Mendoza
+C020,Online,Sueter,3,40.0,120.0,20.75,99.25,2025-05-21,Tienda Online,Ciudad de Cordoba
+C021,Online,Sueter,2,40.0,80.0,15.52,64.48,2024-09-27,Tienda Online,Ciudad de Cordoba
+C022,Tienda Fisica,Camiseta,2,20.0,40.0,10.97,29.03,2024-06-17,Plaza Ropa,Mendoza
+C023,Tienda Fisica,Traje,2,150.0,300.0,0.25,299.75,2025-02-16,Boutique Real,Ciudad de Santa Fe
+C024,Tienda Fisica,Falda,3,30.0,90.0,5.08,84.92,2024-11-28,Centro Moda,Mendoza
+C025,Online,Vestido,3,35.0,105.0,27.12,77.88,2025-01-24,Tienda Online,Mendoza
+C026,Online,Camisa Formal,1,60.0,60.0,11.62,48.38,2025-01-18,Tienda Online,Ciudad de Cordoba
+C027,Tienda Fisica,Blusa,2,25.0,50.0,3.99,46.01,2024-09-12,Centro Moda,Rosario
+C028,Tienda Fisica,Camisa Formal,2,60.0,120.0,24.93,95.07,2024-11-12,Ropa Moderna,Ciudad de Cordoba
+C029,Tienda Fisica,Camiseta,2,20.0,40.0,0.33,39.67,2025-01-10,Centro Moda,Mendoza
+C030,Tienda Fisica,Traje,2,150.0,300.0,34.18,265.82,2024-11-02,Boutique Real,Rosario
+C031,Tienda Fisica,Vestido,1,35.0,35.0,10.47,24.53,2024-08-23,Centro Moda,Mendoza
+C032,Online,Camisa Formal,3,60.0,180.0,42.69,137.31,2025-01-22,Tienda Online,Buenos Aires
+C033,Tienda Fisica,Sueter,1,40.0,40.0,9.17,30.83,2024-08-02,Boutique Real,Ciudad de Cordoba
+C034,Tienda Fisica,Jeans,1,50.0,50.0,6.9,43.1,2024-08-29,Plaza Ropa,Ciudad de Cordoba
+C035,Tienda Fisica,Blusa,3,25.0,75.0,14.42,60.58,2024-10-07,Moda Express,Ciudad de Cordoba
+C036,Online,Jeans,1,50.0,50.0,0.35,49.65,2024-07-19,Tienda Online,Rosario
+C037,Tienda Fisica,Falda,2,30.0,60.0,0.84,59.16,2024-10-26,Moda Express,Buenos Aires
+C038,Online,Falda,1,30.0,30.0,3.22,26.78,2025-04-05,Tienda Online,Ciudad de Santa Fe
+C039,Online,Blusa,2,25.0,50.0,3.65,46.35,2024-12-01,Tienda Online,Mendoza
+C040,Online,Pantalon,1,45.0,45.0,5.51,39.49,2025-01-17,Tienda Online,Ciudad de Cordoba
+C041,Online,Vestido,3,35.0,105.0,21.5,83.5,2024-09-20,Tienda Online,Ciudad de Santa Fe
+C042,Tienda Fisica,Falda,1,30.0,30.0,6.06,23.94,2025-03-08,Ropa Moderna,Rosario
+C043,Tienda Fisica,Camisa Formal,2,60.0,120.0,31.13,88.87,2024-12-13,Boutique Real,Buenos Aires
+C044,Tienda Fisica,Vestido,1,35.0,35.0,1.21,33.79,2024-12-02,Boutique Real,Ciudad de Cordoba
+C045,Tienda Fisica,Traje,2,150.0,300.0,43.28,256.72,2024-08-03,Plaza Ropa,Ciudad de Santa Fe
+C046,Online,Sueter,3,40.0,120.0,15.49,104.51,2024-08-19,Tienda Online,Mendoza
+C047,Tienda Fisica,Pantalon,2,45.0,90.0,25.43,64.57,2025-03-05,Plaza Ropa,Buenos Aires
+C048,Tienda Fisica,Jeans,2,50.0,100.0,28.72,71.28,2024-11-09,Ropa Moderna,Ciudad de Santa Fe
+C049,Online,Pantalon,1,45.0,45.0,9.83,35.17,2025-01-16,Tienda Online,Ciudad de Santa Fe
+C050,Tienda Fisica,Traje,1,150.0,150.0,23.64,126.36,2024-12-13,Boutique Real,Mendoza
+C051,Tienda Fisica,Blusa,2,25.0,50.0,13.95,36.05,2025-02-18,Boutique Real,Rosario
+C052,Tienda Fisica,Camisa Formal,2,60.0,120.0,20.91,99.09,2024-08-29,Boutique Real,Mendoza
+C053,Online,Falda,1,30.0,30.0,4.12,25.88,2025-01-24,Tienda Online,Ciudad de Santa Fe
+C054,Online,Traje,2,150.0,300.0,6.28,293.72,2025-01-15,Tienda Online,Mendoza
+C055,Tienda Fisica,Blusa,3,25.0,75.0,13.07,61.93,2024-08-30,Centro Moda,Ciudad de Cordoba
+C056,Online,Falda,1,30.0,30.0,3.44,26.56,2025-03-08,Tienda Online,Mendoza
+C057,Tienda Fisica,Camiseta,1,20.0,20.0,3.06,16.94,2024-10-16,Moda Express,Mendoza
+C058,Online,Traje,3,150.0,450.0,62.24,387.76,2024-11-07,Tienda Online,Ciudad de Santa Fe
+C059,Tienda Fisica,Traje,2,150.0,300.0,75.34,224.66,2024-11-02,Plaza Ropa,Mendoza
+C060,Online,Camisa Formal,1,60.0,60.0,11.59,48.41,2024-08-04,Tienda Online,Buenos Aires
+C061,Tienda Fisica,Camiseta,3,20.0,60.0,0.71,59.29,2024-10-16,Boutique Real,Ciudad de Cordoba
+C062,Tienda Fisica,Falda,1,30.0,30.0,8.84,21.16,2024-12-28,Boutique Real,Buenos Aires
+C063,Online,Sueter,2,40.0,80.0,14.06,65.94,2024-06-02,Tienda Online,Ciudad de Cordoba
+C064,Online,Chaqueta,2,80.0,160.0,14.13,145.87,2024-08-19,Tienda Online,Rosario
+C065,Tienda Fisica,Falda,1,30.0,30.0,3.17,26.83,2025-04-22,Plaza Ropa,Mendoza
+C066,Tienda Fisica,Jeans,3,50.0,150.0,29.62,120.38,2025-03-16,Ropa Moderna,Ciudad de Santa Fe
+C067,Online,Blusa,2,25.0,50.0,4.47,45.53,2024-09-13,Tienda Online,Buenos Aires
+C068,Online,Camiseta,1,20.0,20.0,1.93,18.07,2025-04-15,Tienda Online,Buenos Aires
+C069,Online,Camiseta,3,20.0,60.0,7.3,52.7,2024-10-20,Tienda Online,Rosario
+C070,Tienda Fisica,Chaqueta,2,80.0,160.0,14.26,145.74,2024-10-26,Plaza Ropa,Ciudad de Santa Fe
+C071,Tienda Fisica,Pantalon,2,45.0,90.0,5.62,84.38,2024-10-28,Moda Express,Ciudad de Cordoba
+C072,Tienda Fisica,Pantalon,1,45.0,45.0,11.35,33.65,2024-08-09,Moda Express,Ciudad de Santa Fe
+C073,Tienda Fisica,Camiseta,2,20.0,40.0,10.71,29.29,2024-07-11,Ropa Moderna,Mendoza
+C074,Online,Camiseta,3,20.0,60.0,4.77,55.23,2024-07-15,Tienda Online,Buenos Aires
+C075,Tienda Fisica,Camisa Formal,3,60.0,180.0,38.07,141.93,2025-05-20,Plaza Ropa,Mendoza
+C076,Tienda Fisica,Pantalon,3,45.0,135.0,8.08,126.92,2024-09-24,Boutique Real,Buenos Aires
+C077,Tienda Fisica,Camisa Formal,1,60.0,60.0,13.8,46.2,2025-04-16,Ropa Moderna,Rosario
+C078,Online,Sueter,3,40.0,120.0,29.05,90.95,2025-01-22,Tienda Online,Buenos Aires
+C079,Tienda Fisica,Pantalon,2,45.0,90.0,5.43,84.57,2025-03-20,Ropa Moderna,Rosario
+C080,Online,Chaqueta,3,80.0,240.0,17.3,222.7,2025-02-17,Tienda Online,Ciudad de Cordoba
+C081,Tienda Fisica,Traje,2,150.0,300.0,17.51,282.49,2025-04-16,Ropa Moderna,Ciudad de Cordoba
+C082,Tienda Fisica,Falda,1,30.0,30.0,5.16,24.84,2024-12-04,Centro Moda,Buenos Aires
+C083,Online,Camiseta,3,20.0,60.0,15.08,44.92,2025-01-03,Tienda Online,Mendoza
+C084,Tienda Fisica,Camiseta,3,20.0,60.0,14.94,45.06,2024-11-17,Boutique Real,Rosario
+C085,Tienda Fisica,Blusa,2,25.0,50.0,12.72,37.28,2025-04-04,Boutique Real,Mendoza
+C086,Tienda Fisica,Blusa,2,25.0,50.0,4.64,45.36,2024-08-23,Centro Moda,Buenos Aires
+C087,Tienda Fisica,Camiseta,1,20.0,20.0,1.22,18.78,2024-11-26,Plaza Ropa,Rosario
+C088,Online,Camiseta,2,20.0,40.0,7.44,32.56,2025-05-09,Tienda Online,Mendoza
+C089,Tienda Fisica,Sueter,3,40.0,120.0,32.94,87.06,2025-05-13,Moda Express,Ciudad de Cordoba
+C090,Tienda Fisica,Camiseta,2,20.0,40.0,8.31,31.69,2025-02-10,Moda Express,Ciudad de Cordoba
+C091,Online,Chaqueta,1,80.0,80.0,4.02,75.98,2024-08-17,Tienda Online,Ciudad de Cordoba
+C092,Tienda Fisica,Pantalon,1,45.0,45.0,2.69,42.31,2025-02-23,Moda Express,Rosario
+C093,Online,Blusa,3,25.0,75.0,17.84,57.16,2024-12-11,Tienda Online,Mendoza
+C094,Online,Jeans,2,50.0,100.0,13.26,86.74,2024-09-13,Tienda Online,Mendoza
+C095,Tienda Fisica,Jeans,3,50.0,150.0,44.52,105.48,2024-08-28,Boutique Real,Rosario
+C096,Online,Camisa Formal,1,60.0,60.0,13.28,46.72,2024-07-31,Tienda Online,Mendoza
+C097,Online,Vestido,2,35.0,70.0,14.37,55.63,2024-11-24,Tienda Online,Ciudad de Cordoba
+C098,Tienda Fisica,Chaqueta,1,80.0,80.0,16.7,63.3,2024-09-02,Centro Moda,Rosario
+C099,Online,Sueter,1,40.0,40.0,10.61,29.39,2024-07-04,Tienda Online,Ciudad de Santa Fe
+C100,Tienda Fisica,Vestido,1,35.0,35.0,9.01,25.99,2024-12-09,Moda Express,Ciudad de Cordoba
+C101,Tienda Fisica,Traje,2,150.0,300.0,4.42,295.58,2024-11-18,Boutique Real,Ciudad de Cordoba
+C102,Online,Camisa Formal,1,60.0,60.0,5.0,55.0,2024-12-05,Tienda Online,Ciudad de Santa Fe
+C103,Online,Sueter,1,40.0,40.0,7.29,32.71,2024-06-20,Tienda Online,Ciudad de Cordoba
+C104,Online,Chaqueta,3,80.0,240.0,37.4,202.6,2025-02-26,Tienda Online,Ciudad de Cordoba
+C105,Online,Falda,3,30.0,90.0,8.16,81.84,2025-05-04,Tienda Online,Ciudad de Santa Fe
+C106,Tienda Fisica,Camiseta,2,20.0,40.0,6.11,33.89,2025-02-03,Moda Express,Ciudad de Cordoba
+C107,Online,Falda,2,30.0,60.0,6.17,53.83,2024-12-11,Tienda Online,Rosario
+C108,Online,Traje,2,150.0,300.0,51.33,248.67,2024-09-25,Tienda Online,Ciudad de Cordoba
+C109,Online,Pantalon,2,45.0,90.0,5.69,84.31,2025-01-17,Tienda Online,Buenos Aires
+C110,Tienda Fisica,Blusa,3,25.0,75.0,21.94,53.06,2025-04-30,Boutique Real,Mendoza
+C111,Online,Pantalon,1,45.0,45.0,6.97,38.03,2024-08-17,Tienda Online,Buenos Aires
+C112,Tienda Fisica,Camiseta,1,20.0,20.0,1.06,18.94,2025-02-22,Moda Express,Rosario
+C113,Tienda Fisica,Sueter,3,40.0,120.0,18.51,101.49,2024-07-06,Ropa Moderna,Ciudad de Santa Fe
+C114,Tienda Fisica,Blusa,3,25.0,75.0,20.8,54.2,2025-03-11,Plaza Ropa,Ciudad de Santa Fe
+C115,Online,Chaqueta,1,80.0,80.0,22.37,57.63,2024-11-29,Tienda Online,Ciudad de Santa Fe
+C116,Online,Vestido,2,35.0,70.0,11.68,58.32,2025-02-01,Tienda Online,Buenos Aires
+C117,Tienda Fisica,Camiseta,2,20.0,40.0,8.37,31.63,2024-08-01,Moda Express,Mendoza
+C118,Online,Camisa Formal,3,60.0,180.0,6.78,173.22,2025-02-04,Tienda Online,Ciudad de Cordoba
+C119,Tienda Fisica,Jeans,1,50.0,50.0,1.35,48.65,2024-10-29,Plaza Ropa,Buenos Aires
+C120,Online,Sueter,3,40.0,120.0,17.25,102.75,2024-09-09,Tienda Online,Ciudad de Cordoba
+C121,Tienda Fisica,Chaqueta,2,80.0,160.0,40.67,119.33,2024-07-24,Moda Express,Mendoza
+C122,Tienda Fisica,Sueter,2,40.0,80.0,19.92,60.08,2024-05-24,Plaza Ropa,Rosario
+C123,Online,Falda,2,30.0,60.0,17.12,42.88,2025-03-11,Tienda Online,Buenos Aires
+C124,Online,Sueter,2,40.0,80.0,0.61,79.39,2025-01-30,Tienda Online,Ciudad de Cordoba
+C125,Tienda Fisica,Chaqueta,2,80.0,160.0,39.79,120.21,2024-08-29,Moda Express,Ciudad de Cordoba
+C126,Tienda Fisica,Traje,1,150.0,150.0,9.25,140.75,2024-06-11,Centro Moda,Buenos Aires
+C127,Online,Sueter,3,40.0,120.0,2.33,117.67,2024-07-01,Tienda Online,Ciudad de Santa Fe
+C128,Tienda Fisica,Pantalon,3,45.0,135.0,12.93,122.07,2025-03-04,Plaza Ropa,Ciudad de Cordoba
+C129,Online,Traje,1,150.0,150.0,43.25,106.75,2025-01-29,Tienda Online,Ciudad de Santa Fe
+C130,Online,Pantalon,1,45.0,45.0,8.05,36.95,2024-09-06,Tienda Online,Mendoza
+C131,Online,Camiseta,2,20.0,40.0,9.26,30.74,2025-05-15,Tienda Online,Buenos Aires
+C132,Tienda Fisica,Jeans,3,50.0,150.0,5.06,144.94,2024-11-24,Plaza Ropa,Ciudad de Cordoba
+C133,Online,Pantalon,1,45.0,45.0,8.29,36.71,2024-09-12,Tienda Online,Rosario
+C134,Tienda Fisica,Pantalon,3,45.0,135.0,19.31,115.69,2025-03-22,Boutique Real,Ciudad de Santa Fe
+C135,Online,Pantalon,1,45.0,45.0,13.42,31.58,2025-03-25,Tienda Online,Rosario
+C136,Tienda Fisica,Sueter,3,40.0,120.0,2.09,117.91,2024-05-26,Centro Moda,Buenos Aires
+C137,Tienda Fisica,Traje,2,150.0,300.0,39.83,260.17,2025-02-28,Ropa Moderna,Buenos Aires
+C138,Tienda Fisica,Camiseta,3,20.0,60.0,15.38,44.62,2024-09-25,Ropa Moderna,Buenos Aires
+C139,Online,Falda,1,30.0,30.0,0.35,29.65,2025-02-27,Tienda Online,Ciudad de Cordoba
+C140,Online,Camisa Formal,3,60.0,180.0,7.12,172.88,2025-02-22,Tienda Online,Rosario
+C141,Tienda Fisica,Falda,2,30.0,60.0,1.47,58.53,2024-12-28,Ropa Moderna,Ciudad de Cordoba
+C142,Tienda Fisica,Falda,3,30.0,90.0,17.61,72.39,2024-12-12,Moda Express,Ciudad de Cordoba
+C143,Tienda Fisica,Blusa,1,25.0,25.0,3.81,21.19,2025-04-02,Centro Moda,Buenos Aires
+C144,Tienda Fisica,Traje,1,150.0,150.0,19.13,130.87,2025-04-05,Plaza Ropa,Buenos Aires
+C145,Online,Falda,2,30.0,60.0,2.74,57.26,2024-12-15,Tienda Online,Buenos Aires
+C146,Tienda Fisica,Camiseta,3,20.0,60.0,16.66,43.34,2025-01-28,Boutique Real,Mendoza
+C147,Online,Sueter,3,40.0,120.0,4.61,115.39,2024-10-06,Tienda Online,Buenos Aires
+C148,Online,Vestido,1,35.0,35.0,0.88,34.12,2024-12-10,Tienda Online,Buenos Aires
+C149,Online,Traje,1,150.0,150.0,30.78,119.22,2024-06-02,Tienda Online,Mendoza
+C150,Tienda Fisica,Traje,1,150.0,150.0,24.91,125.09,2024-12-23,Ropa Moderna,Rosario
+C151,Tienda Fisica,Vestido,2,35.0,70.0,11.1,58.9,2024-11-25,Centro Moda,Ciudad de Santa Fe
+C152,Online,Chaqueta,2,80.0,160.0,37.29,122.71,2024-07-10,Tienda Online,Ciudad de Cordoba
+C153,Tienda Fisica,Camiseta,1,20.0,20.0,5.95,14.05,2024-09-01,Boutique Real,Mendoza
+C154,Online,Camiseta,3,20.0,60.0,12.84,47.16,2025-01-07,Tienda Online,Ciudad de Santa Fe
+C155,Online,Vestido,1,35.0,35.0,4.81,30.19,2025-03-17,Tienda Online,Ciudad de Cordoba
+C156,Tienda Fisica,Traje,2,150.0,300.0,31.97,268.03,2024-06-08,Plaza Ropa,Ciudad de Cordoba
+C157,Tienda Fisica,Blusa,2,25.0,50.0,12.11,37.89,2024-12-04,Boutique Real,Buenos Aires
+C158,Tienda Fisica,Pantalon,2,45.0,90.0,13.72,76.28,2025-03-24,Ropa Moderna,Ciudad de Cordoba
+C159,Online,Falda,2,30.0,60.0,16.57,43.43,2024-12-11,Tienda Online,Ciudad de Santa Fe
+C160,Tienda Fisica,Falda,3,30.0,90.0,24.2,65.8,2024-12-19,Ropa Moderna,Ciudad de Cordoba
+C161,Tienda Fisica,Blusa,2,25.0,50.0,3.53,46.47,2025-02-24,Centro Moda,Ciudad de Santa Fe
+C162,Tienda Fisica,Camiseta,3,20.0,60.0,16.88,43.12,2024-11-17,Boutique Real,Buenos Aires
+C163,Tienda Fisica,Camiseta,1,20.0,20.0,6.0,14.0,2025-01-31,Centro Moda,Buenos Aires
+C164,Tienda Fisica,Camiseta,3,20.0,60.0,4.15,55.85,2025-05-15,Boutique Real,Buenos Aires
+C165,Tienda Fisica,Camiseta,1,20.0,20.0,2.88,17.12,2024-06-13,Centro Moda,Ciudad de Cordoba
+C166,Tienda Fisica,Vestido,3,35.0,105.0,25.56,79.44,2025-02-06,Moda Express,Ciudad de Cordoba
+C167,Tienda Fisica,Vestido,2,35.0,70.0,14.1,55.9,2024-09-22,Centro Moda,Rosario
+C168,Online,Sueter,2,40.0,80.0,11.28,68.72,2025-01-13,Tienda Online,Ciudad de Santa Fe
+C169,Online,Sueter,2,40.0,80.0,9.08,70.92,2024-09-14,Tienda Online,Rosario
+C170,Online,Sueter,3,40.0,120.0,23.39,96.61,2024-06-15,Tienda Online,Rosario
+C171,Online,Vestido,1,35.0,35.0,7.85,27.15,2024-12-27,Tienda Online,Mendoza
+C172,Tienda Fisica,Falda,1,30.0,30.0,8.76,21.24,2024-12-14,Ropa Moderna,Buenos Aires
+C173,Tienda Fisica,Blusa,2,25.0,50.0,3.52,46.48,2024-06-22,Boutique Real,Ciudad de Santa Fe
+C174,Online,Vestido,1,35.0,35.0,5.09,29.91,2024-10-02,Tienda Online,Mendoza
+C175,Online,Jeans,3,50.0,150.0,1.68,148.32,2024-10-31,Tienda Online,Ciudad de Cordoba
+C176,Online,Camiseta,2,20.0,40.0,6.03,33.97,2025-01-23,Tienda Online,Rosario
+C177,Tienda Fisica,Chaqueta,3,80.0,240.0,57.19,182.81,2024-09-04,Moda Express,Mendoza
+C178,Tienda Fisica,Jeans,3,50.0,150.0,31.26,118.74,2025-03-04,Boutique Real,Mendoza
+C179,Online,Jeans,3,50.0,150.0,37.04,112.96,2025-05-19,Tienda Online,Rosario
+C180,Tienda Fisica,Camiseta,2,20.0,40.0,1.41,38.59,2024-09-09,Moda Express,Buenos Aires
+C181,Online,Camiseta,1,20.0,20.0,5.49,14.51,2025-02-05,Tienda Online,Ciudad de Cordoba
+C182,Tienda Fisica,Sueter,1,40.0,40.0,10.39,29.61,2024-08-29,Plaza Ropa,Rosario
+C183,Online,Camiseta,1,20.0,20.0,1.13,18.87,2025-03-30,Tienda Online,Buenos Aires
+C184,Tienda Fisica,Blusa,3,25.0,75.0,11.03,63.97,2024-12-15,Plaza Ropa,Rosario
+C185,Tienda Fisica,Blusa,2,25.0,50.0,4.24,45.76,2025-05-16,Ropa Moderna,Mendoza
+C186,Online,Vestido,2,35.0,70.0,19.07,50.93,2025-04-22,Tienda Online,Mendoza
+C187,Online,Camiseta,2,20.0,40.0,9.82,30.18,2024-12-27,Tienda Online,Buenos Aires
+C188,Tienda Fisica,Chaqueta,2,80.0,160.0,30.6,129.4,2024-12-12,Plaza Ropa,Buenos Aires
+C189,Tienda Fisica,Traje,2,150.0,300.0,87.48,212.52,2024-12-07,Plaza Ropa,Ciudad de Cordoba
+C190,Tienda Fisica,Chaqueta,2,80.0,160.0,33.68,126.32,2024-06-18,Ropa Moderna,Ciudad de Cordoba
+C191,Tienda Fisica,Chaqueta,3,80.0,240.0,55.65,184.35,2025-03-25,Moda Express,Mendoza
+C192,Tienda Fisica,Vestido,1,35.0,35.0,3.25,31.75,2024-08-29,Boutique Real,Ciudad de Cordoba
+C193,Tienda Fisica,Traje,1,150.0,150.0,4.71,145.29,2024-06-29,Ropa Moderna,Ciudad de Santa Fe
+C194,Tienda Fisica,Blusa,1,25.0,25.0,2.9,22.1,2024-10-22,Boutique Real,Ciudad de Cordoba
+C195,Online,Pantalon,1,45.0,45.0,3.71,41.29,2024-07-09,Tienda Online,Ciudad de Santa Fe
+C196,Online,Camiseta,2,20.0,40.0,1.4,38.6,2025-05-19,Tienda Online,Mendoza
+C197,Tienda Fisica,Blusa,2,25.0,50.0,7.94,42.06,2025-02-05,Moda Express,Mendoza
+C198,Online,Pantalon,3,45.0,135.0,10.07,124.93,2025-01-27,Tienda Online,Ciudad de Santa Fe
+C199,Tienda Fisica,Camiseta,2,20.0,40.0,7.93,32.07,2024-07-27,Centro Moda,Mendoza
+C200,Online,Blusa,2,25.0,50.0,2.18,47.82,2025-04-14,Tienda Online,Mendoza
+C201,Tienda Fisica,Falda,1,30.0,30.0,6.59,23.41,2025-02-14,Moda Express,Ciudad de Santa Fe
+C202,Tienda Fisica,Traje,2,150.0,300.0,5.74,294.26,2025-05-19,Ropa Moderna,Buenos Aires
+C203,Online,Falda,1,30.0,30.0,3.76,26.24,2025-03-09,Tienda Online,Rosario
+C204,Tienda Fisica,Camiseta,1,20.0,20.0,1.64,18.36,2024-10-19,Plaza Ropa,Buenos Aires
+C205,Online,Vestido,2,35.0,70.0,5.59,64.41,2024-08-27,Tienda Online,Buenos Aires
+C206,Online,Sueter,2,40.0,80.0,6.29,73.71,2024-10-16,Tienda Online,Buenos Aires
+C207,Tienda Fisica,Blusa,1,25.0,25.0,7.18,17.82,2025-02-26,Moda Express,Buenos Aires
+C208,Tienda Fisica,Vestido,3,35.0,105.0,27.72,77.28,2024-09-25,Plaza Ropa,Buenos Aires
+C209,Tienda Fisica,Jeans,3,50.0,150.0,10.91,139.09,2024-11-27,Boutique Real,Ciudad de Santa Fe
+C210,Tienda Fisica,Jeans,2,50.0,100.0,26.62,73.38,2024-08-04,Ropa Moderna,Buenos Aires
+C211,Tienda Fisica,Vestido,3,35.0,105.0,8.81,96.19,2025-05-03,Plaza Ropa,Mendoza
+C212,Tienda Fisica,Jeans,3,50.0,150.0,30.56,119.44,2024-09-05,Ropa Moderna,Mendoza
+C213,Online,Falda,3,30.0,90.0,21.19,68.81,2025-01-27,Tienda Online,Mendoza
+C214,Online,Blusa,2,25.0,50.0,11.53,38.47,2024-09-23,Tienda Online,Rosario
+C215,Tienda Fisica,Sueter,2,40.0,80.0,3.76,76.24,2025-05-10,Centro Moda,Rosario
+C216,Online,Falda,3,30.0,90.0,9.88,80.12,2025-01-23,Tienda Online,Buenos Aires
+C217,Tienda Fisica,Jeans,2,50.0,100.0,20.98,79.02,2025-04-07,Boutique Real,Ciudad de Santa Fe
+C218,Tienda Fisica,Traje,2,150.0,300.0,23.8,276.2,2024-11-07,Moda Express,Mendoza
+C219,Tienda Fisica,Camisa Formal,2,60.0,120.0,15.48,104.52,2024-08-09,Boutique Real,Mendoza
+C220,Online,Sueter,2,40.0,80.0,10.06,69.94,2025-03-18,Tienda Online,Rosario
+C221,Tienda Fisica,Sueter,2,40.0,80.0,1.48,78.52,2024-11-06,Moda Express,Ciudad de Cordoba
+C222,Online,Sueter,1,40.0,40.0,6.08,33.92,2024-05-22,Tienda Online,Mendoza
+C223,Tienda Fisica,Traje,3,150.0,450.0,14.45,435.55,2025-04-27,Boutique Real,Ciudad de Santa Fe
+C224,Online,Camisa Formal,2,60.0,120.0,35.08,84.92,2024-12-19,Tienda Online,Ciudad de Santa Fe
+C225,Tienda Fisica,Camiseta,2,20.0,40.0,5.11,34.89,2024-06-17,Boutique Real,Ciudad de Cordoba
+C226,Online,Vestido,3,35.0,105.0,10.17,94.83,2025-02-17,Tienda Online,Ciudad de Cordoba
+C227,Tienda Fisica,Chaqueta,1,80.0,80.0,12.77,67.23,2024-12-04,Moda Express,Rosario
+C228,Tienda Fisica,Sueter,1,40.0,40.0,4.98,35.02,2024-07-01,Plaza Ropa,Rosario
+C229,Online,Camisa Formal,3,60.0,180.0,46.37,133.63,2024-12-28,Tienda Online,Mendoza
+C230,Tienda Fisica,Blusa,2,25.0,50.0,10.29,39.71,2024-09-20,Plaza Ropa,Buenos Aires
+C231,Tienda Fisica,Chaqueta,3,80.0,240.0,27.33,212.67,2024-12-01,Moda Express,Rosario
+C232,Online,Blusa,1,25.0,25.0,0.59,24.41,2025-03-14,Tienda Online,Buenos Aires
+C233,Tienda Fisica,Camiseta,1,20.0,20.0,2.22,17.78,2024-12-20,Moda Express,Buenos Aires
+C234,Tienda Fisica,Jeans,3,50.0,150.0,42.0,108.0,2024-06-10,Moda Express,Rosario
+C235,Tienda Fisica,Chaqueta,2,80.0,160.0,6.98,153.02,2024-12-04,Ropa Moderna,Ciudad de Cordoba
+C236,Tienda Fisica,Falda,3,30.0,90.0,10.52,79.48,2024-07-04,Plaza Ropa,Ciudad de Santa Fe
+C237,Tienda Fisica,Chaqueta,2,80.0,160.0,11.02,148.98,2024-11-11,Moda Express,Rosario
+C238,Online,Camisa Formal,2,60.0,120.0,0.5,119.5,2024-08-11,Tienda Online,Mendoza
+C239,Online,Camisa Formal,3,60.0,180.0,7.57,172.43,2024-08-13,Tienda Online,Mendoza
+C240,Online,Camiseta,1,20.0,20.0,3.9,16.1,2025-05-20,Tienda Online,Rosario
+C241,Tienda Fisica,Camisa Formal,3,60.0,180.0,44.76,135.24,2025-02-14,Centro Moda,Mendoza
+C242,Tienda Fisica,Sueter,3,40.0,120.0,32.42,87.58,2024-11-05,Moda Express,Ciudad de Cordoba
+C243,Tienda Fisica,Camisa Formal,1,60.0,60.0,13.65,46.35,2025-01-09,Ropa Moderna,Buenos Aires
+C244,Online,Chaqueta,3,80.0,240.0,5.51,234.49,2025-04-01,Tienda Online,Buenos Aires
+C245,Online,Sueter,3,40.0,120.0,28.86,91.14,2025-02-15,Tienda Online,Ciudad de Santa Fe
+C246,Online,Vestido,1,35.0,35.0,0.22,34.78,2025-02-15,Tienda Online,Rosario
+C247,Tienda Fisica,Chaqueta,1,80.0,80.0,4.11,75.89,2024-09-21,Moda Express,Ciudad de Cordoba
+C248,Online,Traje,2,150.0,300.0,57.23,242.77,2024-08-24,Tienda Online,Ciudad de Cordoba
+C249,Online,Camisa Formal,3,60.0,180.0,44.2,135.8,2024-07-30,Tienda Online,Buenos Aires
+C250,Online,Blusa,2,25.0,50.0,7.08,42.92,2025-02-16,Tienda Online,Ciudad de Santa Fe
+C251,Tienda Fisica,Falda,1,30.0,30.0,0.75,29.25,2024-06-09,Moda Express,Mendoza
+C252,Tienda Fisica,Pantalon,2,45.0,90.0,0.67,89.33,2024-05-26,Centro Moda,Rosario
+C253,Tienda Fisica,Chaqueta,1,80.0,80.0,17.02,62.98,2024-10-03,Centro Moda,Ciudad de Cordoba
+C254,Tienda Fisica,Blusa,1,25.0,25.0,2.58,22.42,2025-01-13,Moda Express,Ciudad de Santa Fe
+C255,Tienda Fisica,Chaqueta,3,80.0,240.0,40.66,199.34,2024-12-21,Boutique Real,Buenos Aires
+C256,Online,Camiseta,2,20.0,40.0,4.13,35.87,2025-01-12,Tienda Online,Buenos Aires
+C257,Online,Blusa,2,25.0,50.0,8.61,41.39,2024-08-28,Tienda Online,Buenos Aires
+C258,Online,Camisa Formal,3,60.0,180.0,26.23,153.77,2024-12-06,Tienda Online,Buenos Aires
+C259,Online,Sueter,2,40.0,80.0,11.03,68.97,2024-08-29,Tienda Online,Ciudad de Cordoba
+C260,Tienda Fisica,Camiseta,2,20.0,40.0,8.86,31.14,2024-12-29,Ropa Moderna,Buenos Aires
+C261,Online,Camisa Formal,3,60.0,180.0,6.31,173.69,2024-06-13,Tienda Online,Buenos Aires
+C262,Tienda Fisica,Camiseta,1,20.0,20.0,3.58,16.42,2024-12-31,Plaza Ropa,Rosario
+C263,Tienda Fisica,Jeans,1,50.0,50.0,3.81,46.19,2024-11-23,Plaza Ropa,Ciudad de Cordoba
+C264,Tienda Fisica,Falda,1,30.0,30.0,6.82,23.18,2025-02-25,Centro Moda,Mendoza
+C265,Tienda Fisica,Chaqueta,1,80.0,80.0,1.27,78.73,2025-04-10,Plaza Ropa,Ciudad de Santa Fe
+C266,Tienda Fisica,Sueter,1,40.0,40.0,6.36,33.64,2024-11-06,Plaza Ropa,Buenos Aires
+C267,Tienda Fisica,Camiseta,3,20.0,60.0,11.94,48.06,2024-10-08,Plaza Ropa,Buenos Aires
+C268,Online,Traje,3,150.0,450.0,124.38,325.62,2024-05-29,Tienda Online,Ciudad de Cordoba
+C269,Online,Chaqueta,1,80.0,80.0,5.85,74.15,2025-03-09,Tienda Online,Ciudad de Cordoba
+C270,Tienda Fisica,Jeans,1,50.0,50.0,5.22,44.78,2025-01-18,Boutique Real,Ciudad de Santa Fe
+C271,Online,Falda,2,30.0,60.0,17.32,42.68,2024-07-01,Tienda Online,Rosario
+C272,Tienda Fisica,Vestido,1,35.0,35.0,1.92,33.08,2025-03-27,Moda Express,Buenos Aires
+C273,Tienda Fisica,Sueter,1,40.0,40.0,6.83,33.17,2024-06-28,Ropa Moderna,Mendoza
+C274,Online,Pantalon,2,45.0,90.0,1.22,88.78,2024-06-11,Tienda Online,Rosario
+C275,Tienda Fisica,Blusa,3,25.0,75.0,10.05,64.95,2025-03-08,Moda Express,Ciudad de Santa Fe
+C276,Tienda Fisica,Pantalon,2,45.0,90.0,16.64,73.36,2024-12-22,Boutique Real,Rosario
+C277,Tienda Fisica,Blusa,2,25.0,50.0,11.56,38.44,2024-09-16,Moda Express,Mendoza
+C278,Online,Pantalon,3,45.0,135.0,10.05,124.95,2025-01-15,Tienda Online,Ciudad de Cordoba
+C279,Online,Camiseta,3,20.0,60.0,16.39,43.61,2024-12-06,Tienda Online,Ciudad de Santa Fe
+C280,Tienda Fisica,Jeans,3,50.0,150.0,26.47,123.53,2025-04-18,Boutique Real,Rosario
+C281,Online,Camisa Formal,2,60.0,120.0,16.45,103.55,2024-06-14,Tienda Online,Mendoza
+C282,Online,Chaqueta,3,80.0,240.0,69.33,170.67,2024-11-09,Tienda Online,Buenos Aires
+C283,Online,Camisa Formal,2,60.0,120.0,33.38,86.62,2024-11-13,Tienda Online,Ciudad de Cordoba
+C284,Tienda Fisica,Pantalon,2,45.0,90.0,8.25,81.75,2025-05-01,Boutique Real,Rosario
+C285,Tienda Fisica,Falda,3,30.0,90.0,19.61,70.39,2024-10-11,Ropa Moderna,Rosario
+C286,Tienda Fisica,Vestido,1,35.0,35.0,10.15,24.85,2025-01-21,Centro Moda,Buenos Aires
+C287,Tienda Fisica,Chaqueta,1,80.0,80.0,15.96,64.04,2024-09-23,Moda Express,Rosario
+C288,Tienda Fisica,Jeans,1,50.0,50.0,3.79,46.21,2024-12-13,Moda Express,Buenos Aires
+C289,Tienda Fisica,Camiseta,2,20.0,40.0,7.75,32.25,2025-05-13,Boutique Real,Ciudad de Cordoba
+C290,Online,Camiseta,1,20.0,20.0,1.32,18.68,2024-10-10,Tienda Online,Buenos Aires
+C291,Tienda Fisica,Falda,3,30.0,90.0,5.85,84.15,2025-04-17,Boutique Real,Ciudad de Cordoba
+C292,Online,Blusa,1,25.0,25.0,0.75,24.25,2024-07-08,Tienda Online,Ciudad de Cordoba
+C293,Tienda Fisica,Camiseta,1,20.0,20.0,0.12,19.88,2024-12-15,Moda Express,Mendoza
+C294,Online,Jeans,1,50.0,50.0,12.96,37.04,2024-10-14,Tienda Online,Ciudad de Santa Fe
+C295,Online,Camiseta,2,20.0,40.0,3.19,36.81,2024-06-17,Tienda Online,Mendoza
+C296,Online,Falda,2,30.0,60.0,1.11,58.89,2025-03-04,Tienda Online,Buenos Aires
+C297,Tienda Fisica,Falda,2,30.0,60.0,5.82,54.18,2025-05-04,Ropa Moderna,Buenos Aires
+C298,Online,Vestido,3,35.0,105.0,20.53,84.47,2024-06-28,Tienda Online,Buenos Aires
+C299,Tienda Fisica,Chaqueta,3,80.0,240.0,15.83,224.17,2025-04-04,Ropa Moderna,Ciudad de Santa Fe
+C300,Online,Camiseta,1,20.0,20.0,5.25,14.75,2024-08-05,Tienda Online,Ciudad de Santa Fe
+C301,Online,Pantalon,2,45.0,90.0,12.12,77.88,2025-05-16,Tienda Online,Ciudad de Santa Fe
+C302,Tienda Fisica,Jeans,2,50.0,100.0,27.04,72.96,2025-03-06,Boutique Real,Ciudad de Santa Fe
+C303,Online,Falda,1,30.0,30.0,8.8,21.2,2024-07-27,Tienda Online,Rosario
+C304,Tienda Fisica,Sueter,1,40.0,40.0,1.72,38.28,2024-10-20,Moda Express,Ciudad de Santa Fe
+C305,Online,Falda,1,30.0,30.0,0.72,29.28,2024-10-01,Tienda Online,Ciudad de Cordoba
+C306,Tienda Fisica,Falda,1,30.0,30.0,4.88,25.12,2024-09-30,Ropa Moderna,Ciudad de Santa Fe
+C307,Online,Sueter,1,40.0,40.0,9.81,30.19,2024-10-07,Tienda Online,Ciudad de Cordoba
+C308,Tienda Fisica,Blusa,2,25.0,50.0,10.68,39.32,2025-04-24,Moda Express,Buenos Aires
+C309,Online,Falda,3,30.0,90.0,6.55,83.45,2025-05-21,Tienda Online,Ciudad de Santa Fe
+C310,Tienda Fisica,Camiseta,1,20.0,20.0,0.04,19.96,2024-08-12,Boutique Real,Ciudad de Cordoba
+C311,Online,Traje,3,150.0,450.0,96.98,353.02,2025-02-05,Tienda Online,Ciudad de Cordoba
+C312,Online,Camiseta,2,20.0,40.0,6.92,33.08,2024-11-04,Tienda Online,Mendoza
+C313,Tienda Fisica,Pantalon,2,45.0,90.0,22.31,67.69,2025-03-08,Moda Express,Ciudad de Santa Fe
+C314,Tienda Fisica,Camisa Formal,3,60.0,180.0,13.18,166.82,2024-08-31,Centro Moda,Mendoza
+C315,Tienda Fisica,Blusa,2,25.0,50.0,12.48,37.52,2024-08-30,Boutique Real,Ciudad de Santa Fe
+C316,Tienda Fisica,Chaqueta,3,80.0,240.0,71.12,168.88,2024-12-07,Ropa Moderna,Mendoza
+C317,Online,Blusa,1,25.0,25.0,0.26,24.74,2024-08-17,Tienda Online,Ciudad de Cordoba
+C318,Online,Falda,2,30.0,60.0,6.32,53.68,2025-04-03,Tienda Online,Mendoza
+C319,Online,Falda,3,30.0,90.0,16.92,73.08,2025-01-29,Tienda Online,Buenos Aires
+C320,Tienda Fisica,Camisa Formal,3,60.0,180.0,16.59,163.41,2024-07-30,Plaza Ropa,Ciudad de Santa Fe
+C321,Tienda Fisica,Sueter,1,40.0,40.0,10.29,29.71,2024-12-30,Boutique Real,Buenos Aires
+C322,Tienda Fisica,Traje,2,150.0,300.0,43.25,256.75,2024-09-06,Plaza Ropa,Ciudad de Santa Fe
+C323,Tienda Fisica,Camisa Formal,1,60.0,60.0,12.54,47.46,2024-07-24,Plaza Ropa,Buenos Aires
+C324,Online,Sueter,1,40.0,40.0,2.85,37.15,2024-06-08,Tienda Online,Rosario
+C325,Online,Chaqueta,1,80.0,80.0,10.19,69.81,2025-03-14,Tienda Online,Ciudad de Santa Fe
+C326,Tienda Fisica,Traje,1,150.0,150.0,24.5,125.5,2024-12-29,Ropa Moderna,Rosario
+C327,Online,Vestido,2,35.0,70.0,12.02,57.98,2024-11-15,Tienda Online,Rosario
+C328,Online,Camiseta,3,20.0,60.0,11.68,48.32,2025-03-30,Tienda Online,Ciudad de Cordoba
+C329,Online,Camisa Formal,2,60.0,120.0,20.07,99.93,2024-11-25,Tienda Online,Rosario
+C330,Online,Traje,1,150.0,150.0,7.04,142.96,2025-01-12,Tienda Online,Buenos Aires
+C331,Tienda Fisica,Jeans,1,50.0,50.0,11.79,38.21,2025-01-15,Plaza Ropa,Mendoza
+C332,Tienda Fisica,Pantalon,2,45.0,90.0,23.28,66.72,2024-06-22,Moda Express,Buenos Aires
+C333,Online,Falda,1,30.0,30.0,4.19,25.81,2024-06-01,Tienda Online,Buenos Aires
+C334,Online,Jeans,2,50.0,100.0,14.01,85.99,2024-05-30,Tienda Online,Ciudad de Santa Fe
+C335,Tienda Fisica,Chaqueta,1,80.0,80.0,20.52,59.48,2025-03-18,Boutique Real,Ciudad de Cordoba
+C336,Tienda Fisica,Traje,1,150.0,150.0,26.26,123.74,2025-05-02,Ropa Moderna,Mendoza
+C337,Online,Falda,1,30.0,30.0,1.66,28.34,2024-10-28,Tienda Online,Ciudad de Santa Fe
+C338,Tienda Fisica,Camisa Formal,1,60.0,60.0,2.32,57.68,2024-12-21,Ropa Moderna,Ciudad de Cordoba
+C339,Online,Pantalon,1,45.0,45.0,3.22,41.78,2024-11-18,Tienda Online,Buenos Aires
+C340,Tienda Fisica,Sueter,2,40.0,80.0,1.18,78.82,2024-07-16,Plaza Ropa,Ciudad de Santa Fe
+C341,Tienda Fisica,Camiseta,2,20.0,40.0,8.39,31.61,2024-06-29,Plaza Ropa,Buenos Aires
+C342,Online,Sueter,3,40.0,120.0,7.11,112.89,2024-12-19,Tienda Online,Mendoza
+C343,Tienda Fisica,Vestido,1,35.0,35.0,2.6,32.4,2024-06-29,Centro Moda,Rosario
+C344,Tienda Fisica,Camiseta,1,20.0,20.0,1.5,18.5,2024-12-06,Plaza Ropa,Mendoza
+C345,Online,Camiseta,2,20.0,40.0,8.33,31.67,2024-10-22,Tienda Online,Buenos Aires
+C346,Tienda Fisica,Camiseta,2,20.0,40.0,9.09,30.91,2025-04-27,Boutique Real,Ciudad de Santa Fe
+C347,Online,Falda,1,30.0,30.0,2.13,27.87,2024-07-28,Tienda Online,Rosario
+C348,Online,Jeans,3,50.0,150.0,5.95,144.05,2025-01-25,Tienda Online,Rosario
+C349,Tienda Fisica,Camisa Formal,1,60.0,60.0,0.8,59.2,2025-05-09,Centro Moda,Mendoza
+C350,Online,Traje,3,150.0,450.0,42.41,407.59,2025-02-02,Tienda Online,Ciudad de Cordoba
+C351,Tienda Fisica,Blusa,2,25.0,50.0,14.86,35.14,2024-11-27,Moda Express,Ciudad de Santa Fe
+C352,Online,Camisa Formal,2,60.0,120.0,35.13,84.87,2025-04-19,Tienda Online,Buenos Aires
+C353,Online,Falda,2,30.0,60.0,13.98,46.02,2025-01-10,Tienda Online,Ciudad de Santa Fe
+C354,Online,Pantalon,1,45.0,45.0,3.31,41.69,2024-06-27,Tienda Online,Ciudad de Santa Fe
+C355,Online,Vestido,1,35.0,35.0,2.37,32.63,2024-05-22,Tienda Online,Ciudad de Cordoba
+C356,Tienda Fisica,Chaqueta,1,80.0,80.0,0.36,79.64,2024-07-28,Plaza Ropa,Ciudad de Cordoba
+C357,Tienda Fisica,Sueter,3,40.0,120.0,8.64,111.36,2025-03-12,Centro Moda,Rosario
+C358,Tienda Fisica,Camisa Formal,2,60.0,120.0,6.33,113.67,2024-10-16,Plaza Ropa,Ciudad de Cordoba
+C359,Online,Sueter,2,40.0,80.0,19.52,60.48,2025-02-03,Tienda Online,Buenos Aires
+C360,Online,Camisa Formal,2,60.0,120.0,24.58,95.42,2025-01-23,Tienda Online,Mendoza
+C361,Online,Falda,1,30.0,30.0,4.94,25.06,2024-10-21,Tienda Online,Buenos Aires
+C362,Online,Sueter,2,40.0,80.0,14.81,65.19,2024-11-15,Tienda Online,Buenos Aires
+C363,Tienda Fisica,Camisa Formal,1,60.0,60.0,9.19,50.81,2024-12-01,Plaza Ropa,Rosario
+C364,Tienda Fisica,Traje,1,150.0,150.0,43.38,106.62,2024-06-07,Plaza Ropa,Ciudad de Cordoba
+C365,Tienda Fisica,Traje,3,150.0,450.0,89.14,360.86,2024-08-08,Ropa Moderna,Ciudad de Cordoba
+C366,Tienda Fisica,Jeans,1,50.0,50.0,12.7,37.3,2024-08-30,Moda Express,Buenos Aires
+C367,Online,Chaqueta,1,80.0,80.0,12.72,67.28,2024-08-29,Tienda Online,Rosario
+C368,Tienda Fisica,Camisa Formal,1,60.0,60.0,9.61,50.39,2025-04-12,Ropa Moderna,Rosario
+C369,Tienda Fisica,Falda,3,30.0,90.0,14.5,75.5,2024-06-20,Ropa Moderna,Ciudad de Cordoba
+C370,Online,Falda,2,30.0,60.0,2.05,57.95,2024-09-03,Tienda Online,Buenos Aires
+C371,Tienda Fisica,Blusa,1,25.0,25.0,1.95,23.05,2024-06-21,Ropa Moderna,Rosario
+C372,Online,Chaqueta,2,80.0,160.0,24.02,135.98,2025-04-05,Tienda Online,Ciudad de Santa Fe
+C373,Tienda Fisica,Jeans,3,50.0,150.0,13.52,136.48,2024-10-13,Plaza Ropa,Mendoza
+C374,Online,Chaqueta,1,80.0,80.0,19.69,60.31,2024-06-18,Tienda Online,Mendoza
+C375,Online,Jeans,2,50.0,100.0,19.98,80.02,2024-10-05,Tienda Online,Ciudad de Santa Fe
+C376,Tienda Fisica,Chaqueta,3,80.0,240.0,61.98,178.02,2024-12-26,Centro Moda,Buenos Aires
+C377,Tienda Fisica,Falda,1,30.0,30.0,5.19,24.81,2024-12-02,Moda Express,Ciudad de Cordoba
+C378,Tienda Fisica,Vestido,3,35.0,105.0,30.57,74.43,2024-05-30,Ropa Moderna,Buenos Aires
+C379,Online,Pantalon,2,45.0,90.0,21.87,68.13,2025-02-27,Tienda Online,Ciudad de Cordoba
+C380,Online,Pantalon,3,45.0,135.0,1.08,133.92,2025-05-17,Tienda Online,Mendoza
+C381,Tienda Fisica,Falda,2,30.0,60.0,6.0,54.0,2024-09-07,Plaza Ropa,Ciudad de Cordoba
+C382,Tienda Fisica,Camisa Formal,3,60.0,180.0,8.96,171.04,2024-08-16,Moda Express,Rosario
+C383,Online,Pantalon,1,45.0,45.0,12.26,32.74,2024-11-30,Tienda Online,Mendoza
+C384,Tienda Fisica,Vestido,1,35.0,35.0,6.0,29.0,2024-08-30,Plaza Ropa,Ciudad de Santa Fe
+C385,Online,Chaqueta,3,80.0,240.0,53.22,186.78,2025-04-02,Tienda Online,Rosario
+C386,Online,Vestido,2,35.0,70.0,11.95,58.05,2025-05-08,Tienda Online,Mendoza
+C387,Tienda Fisica,Pantalon,2,45.0,90.0,2.48,87.52,2024-09-26,Plaza Ropa,Mendoza
+C388,Tienda Fisica,Camiseta,3,20.0,60.0,7.82,52.18,2024-10-05,Ropa Moderna,Rosario
+C389,Online,Camiseta,1,20.0,20.0,4.81,15.19,2024-07-09,Tienda Online,Rosario
+C390,Online,Blusa,2,25.0,50.0,3.55,46.45,2025-04-22,Tienda Online,Buenos Aires
+C391,Online,Falda,3,30.0,90.0,4.32,85.68,2025-01-15,Tienda Online,Ciudad de Cordoba
+C392,Tienda Fisica,Vestido,2,35.0,70.0,12.05,57.95,2025-02-18,Moda Express,Mendoza
+C393,Online,Chaqueta,1,80.0,80.0,3.54,76.46,2025-01-06,Tienda Online,Mendoza
+C394,Tienda Fisica,Jeans,2,50.0,100.0,29.07,70.93,2025-04-11,Ropa Moderna,Rosario
+C395,Online,Blusa,1,25.0,25.0,2.07,22.93,2025-02-07,Tienda Online,Mendoza
+C396,Online,Pantalon,2,45.0,90.0,17.3,72.7,2024-08-30,Tienda Online,Rosario
+C397,Tienda Fisica,Falda,2,30.0,60.0,2.43,57.57,2025-02-08,Centro Moda,Ciudad de Cordoba
+C398,Online,Vestido,3,35.0,105.0,30.57,74.43,2024-07-04,Tienda Online,Ciudad de Cordoba
+C399,Tienda Fisica,Sueter,1,40.0,40.0,3.66,36.34,2025-05-03,Ropa Moderna,Rosario
+C400,Tienda Fisica,Vestido,3,35.0,105.0,7.24,97.76,2025-05-13,Moda Express,Mendoza
+C401,Online,Blusa,1,25.0,25.0,1.87,23.13,2024-12-03,Tienda Online,Buenos Aires
+C402,Online,Pantalon,1,45.0,45.0,12.66,32.34,2024-11-28,Tienda Online,Rosario
+C403,Tienda Fisica,Pantalon,3,45.0,135.0,27.87,107.13,2024-09-05,Moda Express,Rosario
+C404,Online,Jeans,2,50.0,100.0,1.14,98.86,2024-09-29,Tienda Online,Ciudad de Cordoba
+C405,Tienda Fisica,Traje,2,150.0,300.0,79.92,220.08,2024-06-08,Moda Express,Ciudad de Cordoba
+C406,Tienda Fisica,Blusa,3,25.0,75.0,17.51,57.49,2024-12-08,Ropa Moderna,Mendoza
+C407,Online,Falda,2,30.0,60.0,6.55,53.45,2025-04-25,Tienda Online,Buenos Aires
+C408,Tienda Fisica,Camisa Formal,3,60.0,180.0,21.49,158.51,2024-12-03,Moda Express,Ciudad de Cordoba
+C409,Online,Vestido,1,35.0,35.0,1.39,33.61,2024-06-22,Tienda Online,Ciudad de Cordoba
+C410,Online,Pantalon,3,45.0,135.0,23.92,111.08,2024-09-24,Tienda Online,Rosario
+C411,Online,Chaqueta,3,80.0,240.0,2.57,237.43,2024-07-11,Tienda Online,Rosario
+C412,Online,Vestido,2,35.0,70.0,9.69,60.31,2024-07-09,Tienda Online,Mendoza
+C413,Tienda Fisica,Pantalon,3,45.0,135.0,34.56,100.44,2025-01-05,Boutique Real,Rosario
+C414,Online,Camiseta,3,20.0,60.0,10.07,49.93,2025-04-27,Tienda Online,Buenos Aires
+C415,Tienda Fisica,Jeans,3,50.0,150.0,41.47,108.53,2025-02-16,Centro Moda,Rosario
+C416,Online,Vestido,2,35.0,70.0,9.61,60.39,2024-06-01,Tienda Online,Mendoza
+C417,Tienda Fisica,Camisa Formal,2,60.0,120.0,15.07,104.93,2025-05-04,Moda Express,Ciudad de Santa Fe
+C418,Online,Camisa Formal,1,60.0,60.0,10.64,49.36,2025-03-04,Tienda Online,Ciudad de Cordoba
+C419,Tienda Fisica,Traje,2,150.0,300.0,63.7,236.3,2024-06-23,Ropa Moderna,Buenos Aires
+C420,Tienda Fisica,Chaqueta,2,80.0,160.0,3.85,156.15,2025-03-17,Centro Moda,Ciudad de Santa Fe
+C421,Tienda Fisica,Pantalon,2,45.0,90.0,18.02,71.98,2024-09-03,Boutique Real,Ciudad de Cordoba
+C422,Online,Camisa Formal,2,60.0,120.0,28.02,91.98,2024-09-10,Tienda Online,Buenos Aires
+C423,Online,Traje,2,150.0,300.0,55.76,244.24,2024-11-15,Tienda Online,Ciudad de Santa Fe
+C424,Online,Falda,3,30.0,90.0,5.16,84.84,2024-06-17,Tienda Online,Mendoza
+C425,Tienda Fisica,Pantalon,1,45.0,45.0,5.96,39.04,2025-02-25,Moda Express,Rosario
+C426,Tienda Fisica,Jeans,1,50.0,50.0,4.63,45.37,2025-04-23,Plaza Ropa,Rosario
+C427,Online,Vestido,2,35.0,70.0,0.57,69.43,2024-07-04,Tienda Online,Ciudad de Santa Fe
+C428,Tienda Fisica,Camiseta,2,20.0,40.0,7.41,32.59,2024-11-13,Boutique Real,Ciudad de Santa Fe
+C429,Tienda Fisica,Blusa,2,25.0,50.0,2.91,47.09,2025-05-10,Moda Express,Ciudad de Santa Fe
+C430,Tienda Fisica,Falda,3,30.0,90.0,12.03,77.97,2024-11-24,Plaza Ropa,Rosario
+C431,Tienda Fisica,Blusa,1,25.0,25.0,2.59,22.41,2024-12-28,Ropa Moderna,Mendoza
+C432,Tienda Fisica,Falda,2,30.0,60.0,8.03,51.97,2024-07-29,Ropa Moderna,Ciudad de Cordoba
+C433,Online,Camisa Formal,1,60.0,60.0,8.26,51.74,2024-09-18,Tienda Online,Mendoza
+C434,Online,Vestido,3,35.0,105.0,9.35,95.65,2025-04-11,Tienda Online,Mendoza
+C435,Tienda Fisica,Pantalon,2,45.0,90.0,12.43,77.57,2025-02-28,Centro Moda,Ciudad de Santa Fe
+C436,Online,Vestido,2,35.0,70.0,13.17,56.83,2025-01-06,Tienda Online,Ciudad de Santa Fe
+C437,Online,Traje,1,150.0,150.0,18.23,131.77,2024-11-25,Tienda Online,Buenos Aires
+C438,Online,Blusa,1,25.0,25.0,1.87,23.13,2025-05-10,Tienda Online,Rosario
+C439,Tienda Fisica,Camisa Formal,3,60.0,180.0,42.29,137.71,2024-12-31,Centro Moda,Rosario
+C440,Tienda Fisica,Camisa Formal,1,60.0,60.0,6.27,53.73,2024-09-20,Boutique Real,Rosario
+C441,Tienda Fisica,Falda,1,30.0,30.0,7.66,22.34,2025-02-16,Plaza Ropa,Rosario
+C442,Online,Camiseta,2,20.0,40.0,7.12,32.88,2024-10-30,Tienda Online,Ciudad de Santa Fe
+C443,Tienda Fisica,Pantalon,3,45.0,135.0,27.98,107.02,2024-10-25,Ropa Moderna,Rosario
+C444,Tienda Fisica,Jeans,3,50.0,150.0,3.05,146.95,2025-03-18,Ropa Moderna,Mendoza
+C445,Online,Camiseta,2,20.0,40.0,4.0,36.0,2024-07-03,Tienda Online,Buenos Aires
+C446,Online,Jeans,2,50.0,100.0,0.51,99.49,2025-03-28,Tienda Online,Mendoza
+C447,Online,Camisa Formal,3,60.0,180.0,31.84,148.16,2024-08-02,Tienda Online,Mendoza
+C448,Tienda Fisica,Jeans,2,50.0,100.0,19.65,80.35,2025-03-21,Boutique Real,Ciudad de Cordoba
+C449,Tienda Fisica,Sueter,1,40.0,40.0,4.13,35.87,2025-03-15,Plaza Ropa,Ciudad de Cordoba
+C450,Online,Camisa Formal,3,60.0,180.0,12.04,167.96,2025-02-24,Tienda Online,Mendoza
+C451,Tienda Fisica,Blusa,3,25.0,75.0,7.57,67.43,2025-04-29,Boutique Real,Ciudad de Cordoba
+C452,Online,Sueter,1,40.0,40.0,2.63,37.37,2024-09-04,Tienda Online,Buenos Aires
+C453,Online,Chaqueta,2,80.0,160.0,1.15,158.85,2025-05-11,Tienda Online,Mendoza
+C454,Online,Camiseta,3,20.0,60.0,14.08,45.92,2025-05-18,Tienda Online,Mendoza
+C455,Tienda Fisica,Pantalon,1,45.0,45.0,1.69,43.31,2024-09-26,Centro Moda,Mendoza
+C456,Online,Jeans,3,50.0,150.0,34.84,115.16,2024-08-23,Tienda Online,Rosario
+C457,Tienda Fisica,Vestido,3,35.0,105.0,18.59,86.41,2025-03-13,Moda Express,Ciudad de Cordoba
+C458,Tienda Fisica,Camiseta,1,20.0,20.0,2.56,17.44,2025-01-04,Plaza Ropa,Mendoza
+C459,Online,Traje,2,150.0,300.0,44.55,255.45,2024-11-17,Tienda Online,Rosario
+C460,Tienda Fisica,Chaqueta,3,80.0,240.0,27.84,212.16,2024-10-06,Centro Moda,Ciudad de Santa Fe
+C461,Online,Blusa,1,25.0,25.0,1.09,23.91,2024-08-07,Tienda Online,Ciudad de Santa Fe
+C462,Online,Chaqueta,3,80.0,240.0,45.48,194.52,2024-12-16,Tienda Online,Buenos Aires
+C463,Tienda Fisica,Chaqueta,2,80.0,160.0,22.46,137.54,2025-05-05,Boutique Real,Ciudad de Santa Fe
+C464,Tienda Fisica,Blusa,2,25.0,50.0,6.42,43.58,2024-09-06,Plaza Ropa,Ciudad de Santa Fe
+C465,Online,Traje,1,150.0,150.0,26.0,124.0,2024-09-07,Tienda Online,Mendoza
+C466,Online,Camiseta,3,20.0,60.0,17.57,42.43,2024-06-22,Tienda Online,Buenos Aires
+C467,Tienda Fisica,Camiseta,3,20.0,60.0,1.11,58.89,2025-03-24,Ropa Moderna,Rosario
+C468,Online,Jeans,3,50.0,150.0,17.29,132.71,2025-03-23,Tienda Online,Buenos Aires
+C469,Tienda Fisica,Pantalon,1,45.0,45.0,0.63,44.37,2025-03-13,Moda Express,Mendoza
+C470,Online,Camisa Formal,1,60.0,60.0,6.98,53.02,2024-09-14,Tienda Online,Ciudad de Santa Fe
+C471,Tienda Fisica,Falda,3,30.0,90.0,0.5,89.5,2024-09-07,Boutique Real,Rosario
+C472,Tienda Fisica,Traje,1,150.0,150.0,44.63,105.37,2024-08-12,Plaza Ropa,Ciudad de Santa Fe
+C473,Online,Vestido,1,35.0,35.0,8.23,26.77,2024-09-25,Tienda Online,Ciudad de Santa Fe
+C474,Online,Jeans,1,50.0,50.0,4.48,45.52,2024-12-23,Tienda Online,Buenos Aires
+C475,Online,Jeans,2,50.0,100.0,8.31,91.69,2024-06-04,Tienda Online,Ciudad de Santa Fe
+C476,Tienda Fisica,Jeans,1,50.0,50.0,13.59,36.41,2024-07-20,Plaza Ropa,Ciudad de Santa Fe
+C477,Online,Pantalon,2,45.0,90.0,17.1,72.9,2024-09-19,Tienda Online,Ciudad de Santa Fe
+C478,Tienda Fisica,Camisa Formal,3,60.0,180.0,18.09,161.91,2024-12-23,Plaza Ropa,Buenos Aires
+C479,Online,Jeans,2,50.0,100.0,20.17,79.83,2024-09-22,Tienda Online,Rosario
+C480,Tienda Fisica,Traje,3,150.0,450.0,93.16,356.84,2024-10-24,Moda Express,Mendoza
+C481,Tienda Fisica,Camiseta,1,20.0,20.0,1.79,18.21,2024-05-31,Boutique Real,Ciudad de Cordoba
+C482,Tienda Fisica,Camisa Formal,1,60.0,60.0,0.78,59.22,2024-07-06,Plaza Ropa,Ciudad de Santa Fe
+C483,Online,Blusa,1,25.0,25.0,0.18,24.82,2024-11-09,Tienda Online,Buenos Aires
+C484,Tienda Fisica,Camiseta,2,20.0,40.0,3.08,36.92,2025-01-28,Moda Express,Ciudad de Cordoba
+C485,Online,Jeans,2,50.0,100.0,24.46,75.54,2024-11-28,Tienda Online,Ciudad de Santa Fe
+C486,Online,Vestido,3,35.0,105.0,2.5,102.5,2025-03-09,Tienda Online,Buenos Aires
+C487,Tienda Fisica,Camiseta,3,20.0,60.0,4.78,55.22,2025-04-16,Centro Moda,Ciudad de Santa Fe
+C488,Tienda Fisica,Vestido,3,35.0,105.0,3.97,101.03,2024-06-21,Plaza Ropa,Rosario
+C489,Online,Sueter,2,40.0,80.0,6.87,73.13,2024-09-03,Tienda Online,Mendoza
+C490,Online,Falda,2,30.0,60.0,11.02,48.98,2025-03-20,Tienda Online,Mendoza
+C491,Tienda Fisica,Jeans,2,50.0,100.0,27.6,72.4,2024-09-25,Boutique Real,Ciudad de Cordoba
+C492,Online,Sueter,1,40.0,40.0,0.9,39.1,2024-08-21,Tienda Online,Ciudad de Santa Fe
+C493,Tienda Fisica,Camisa Formal,2,60.0,120.0,10.2,109.8,2025-04-18,Plaza Ropa,Mendoza
+C494,Online,Camiseta,1,20.0,20.0,4.26,15.74,2024-05-24,Tienda Online,Ciudad de Santa Fe
+C495,Tienda Fisica,Camiseta,2,20.0,40.0,8.71,31.29,2024-09-30,Plaza Ropa,Ciudad de Santa Fe
+C496,Online,Chaqueta,1,80.0,80.0,2.8,77.2,2025-05-20,Tienda Online,Mendoza
+C497,Online,Pantalon,3,45.0,135.0,36.92,98.08,2024-08-30,Tienda Online,Rosario
+C498,Tienda Fisica,Blusa,2,25.0,50.0,5.1,44.9,2025-04-16,Plaza Ropa,Buenos Aires
+C499,Online,Jeans,2,50.0,100.0,28.03,71.97,2024-09-27,Tienda Online,Mendoza
+C500,Tienda Fisica,Camiseta,1,20.0,20.0,1.63,18.37,2024-09-29,Ropa Moderna,Buenos Aires
